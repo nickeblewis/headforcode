@@ -1,6 +1,5 @@
 ---
 # Homepage no content
-title: Serverless - The Serverless Application Framework powered by AWS Lambda and API Gateway
-description: Build web, mobile and IoT applications powered exclusively by AWS Lambda and API Gateway
+title: Headforcode - Helping you get the best out of bleeding edge technology for the smarter, modern business
 layout: Homepage
 ---

@@ -1,48 +1,33 @@
 module.exports = [
   {
-    text: 'Install serverless globally',
+    text: 'Clone HeadForCode',
     type: 'comment',
     skip: true
   },
   {
-    text: 'npm install serverless -g',
+    text: 'git clone https://github.com/nickeblewis/headforcode.git',
     type: 'command'
   },
   {
-    text: 'Create an AWS Lamdba function in Node.js',
+    text: 'Install HeadForCode locally',
     type: 'comment',
     skip: true
   },
   {
-    text: 'serverless create --template aws-nodejs',
+    text: 'npm install',
     type: 'command'
   },
   {
-    text: 'Deploy to live AWS account',
+    text: 'Run HeadForCode',
     type: 'comment',
     skip: true
   },
   {
-    text: 'serverless deploy',
+    text: 'npm start',
     type: 'command'
   },
   {
-    text: 'Function deployed!',
-    type: 'comment',
-    skip: true
-  },
-  {
-    text: 'http://api.amazon.com/users/update',
-    type: 'command',
-    skip: true
-  },
-  {
-    text: '',
-    type: 'empty',
-    skip: true
-  },
-  {
-    text: 'Read the <a href="https://serverless.com/framework/docs/">docs</a> or connect with the <a href="https://gitter.im/serverless/serverless">community</a>',
+    text: 'Explore the <a href="https://headforcode.com/courses">courses</a> or connect with the <a href="https://gitter.im/headforcode/headforcode">community</a>',
     type: 'cta',
     skip: true
   },

@@ -35,7 +35,7 @@ a.yellowLink {
   min-height: calc(100vh - $navHeight);
   margin-bottom: 50px;
   background: #ffea93; /* Old browsers */
-  background: radial-gradient(ellipse at top,  #ffea93 0%,#ffd734 75%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: radial-gradient(ellipse at top,  #93eaff 0%,#34d7ff 75%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffea93', endColorstr='#ffd734',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 .poweredBy {

@@ -3,7 +3,6 @@ import { Link } from 'react-router'
 import handleClickAway from '../../utils/handleClickAway'
 import Svg from 'react-svg-inline'
 import gitHubSvg from '../../assets/icons/github.svg'
-import Logo from '../../assets/images/serverless_logo.png'
 import styles from './Header.css'
 import NewAuth from '../../components/NewAuth/NewAuth'
 // import ProfileIcon from '../../components/ProfileIcon'
@@ -53,9 +52,6 @@ export default class Header extends Component {
         <div className={styles.navFixed}>
           <div className={styles.navWrapper}>
             <div className={styles.navLeft}>
-              <Link to='/' className={styles.logo}>
-                <img alt='Serverless logo' src={Logo} draggable='false' />
-              </Link>
             </div>
             <div ref='toggle' onClick={this.handleClick} className={styles.toggle}>
               <div className={styles.ham}>
@@ -65,13 +61,8 @@ export default class Header extends Component {
             <nav className={styles.navRight + ' ' + mobileNav}>
               <ul className={styles.navItems}>
                 <li className={styles.navItem}>
-                  <Link to='/framework' className={styles.link}>
-                    Framework
-                  </Link>
-                </li>
-                <li className={styles.navItem}>
-                  <Link to='/framework/docs' className={styles.link}>
-                    Documentation
+                  <Link to='/' className={styles.link}>
+                    Home
                   </Link>
                 </li>
                 <li className={styles.navItem}>
@@ -80,18 +71,18 @@ export default class Header extends Component {
                   </Link>
                 </li>
                 <li className={styles.navItem}>
-                  <a href='http://forum.serverless.com/' target='_blank' className={styles.link}>
-                    Forum
-                  </a>
-                </li>
-                <li className={styles.navItem}>
-                  <Link to='/partners' className={styles.link}>
-                    Partners
+                  <Link to='/courses' className={styles.link}>
+                    Courses
                   </Link>
                 </li>
                 <li className={styles.navItem}>
-                  <Link to='/enterprise' className={styles.link}>
-                    Enterprise
+                  <Link to='/research' className={styles.link}>
+                    Research
+                  </Link>
+                </li>
+                <li className={styles.navItem}>
+                  <Link to='/nvq' className={styles.link}>
+                    NVQ
                   </Link>
                 </li>
                 <NewAuth loggedInComponent={<span></span>}>
@@ -102,7 +93,7 @@ export default class Header extends Component {
                   </li>
                 </NewAuth>
                 <li className={styles.navItem}>
-                  <a href='https://www.github.com/serverless/serverless' target='_blank' className={styles.link}>
+                  <a href='https://www.github.com/nickeblewis/headforcode' target='_blank' className={styles.link}>
                     <Svg svg={gitHubSvg} cleanup />
                   </a>
                 </li>

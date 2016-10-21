@@ -4,7 +4,7 @@
 
 
 const segment = `
-        var disqus_shortname = 'serverless-inc';
+        var disqus_shortname = 'head4code';
         (function() {
             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
             dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';

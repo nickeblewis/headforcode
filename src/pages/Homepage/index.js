@@ -49,7 +49,7 @@ export default class Homepage extends Component {
                   <div className={styles.heroFramework}></div>
 
                   <div className={styles.tagline}>
-                    Build auto-scaling, pay-per-execution, event-driven apps on AWS Lambda
+                    Learn the latest tricks of the web trade
                   </div>
                   <div className={styles.buttons}>
                     <div className={styles.cta}>
@@ -60,7 +60,7 @@ export default class Homepage extends Component {
                         <span className={styles.ctaInner}>
                           <Svg svg={playSvg} cleanup />
                           <span className={styles.ctaText}>
-                            WATCH THE VIDEO
+                            LEARN MORE
                           </span>
                         </span>
                       </Button>
@@ -69,7 +69,7 @@ export default class Homepage extends Component {
                     <div className={styles.cta}>
                       <Button
                         kind='black'
-                        href='/framework/docs'
+                        href='/courses/javascript'
                       >
                         <span className={styles.ctaInner}>
                           <Svg svg={docsSvg} cleanup />

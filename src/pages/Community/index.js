@@ -17,7 +17,6 @@ export default class CommunityPage extends Component {
     }
   }
   componentWillUnmount () {
-    console.log('unmount called on community')
     if (isClient) {
       removeScript('//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js')
       delete window.jQuery

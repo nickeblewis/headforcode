@@ -1,4 +1,34 @@
 module.exports = {
+  '/courses/javascript': {
+    'index': [
+      {
+        'path': '/courses/javascript/index',
+        'title': 'Docs',
+        'order': 5
+      }
+    ],
+    'children': [
+      {
+        'path': '/courses/javascript/hello-world',
+        'title': 'Week 1',
+        'order': 1
+      },
+      {
+        'path': '/courses/week2',
+        'title': 'Week 2',
+        'order': 2
+      }
+    ]
+  },
+  '/courses/week1': {
+    'index': [
+      {
+        'path': '/courses/javascript/index',
+        'title': 'Week 1',
+        'order': 1
+      }
+    ]
+  },
   '/framework/docs/': {
     'index': [
       {

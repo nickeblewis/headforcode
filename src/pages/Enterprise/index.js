@@ -19,7 +19,6 @@ export default class PartnersPage extends React.Component {
     var that = this
     submitForm(data, function (err, data) {
       if (err) {
-        console.log('err', err)
         that.setState({
           error: true
         })

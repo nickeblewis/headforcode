@@ -10,26 +10,30 @@ export default class PartnersPage extends React.Component {
       <Page {...this.props} >
         <br />
         <div className={styles.header}>
-          <h1 className='center' style={{marginBottom: '20px'}}>What is the Serverless Framework?</h1>
+          <h1 className='center' style={{marginBottom: '20px'}}>What sets HeadForCode apart from other online mentoring services?</h1>
           <p className='center' style={{marginBottom: '20px'}}>
-            Build applications comprised of microservices that run in response to events, auto-scale for you, and only charge you when they run. This lowers the total cost of maintaining your apps, enabling you to build more logic, faster.
+            We all lead busy lives these days and if like us you work in the modern day software development business, typically spending most of your time building
+            Web and Mobile Apps, you will know how challenging it can be to stay on top of modern day trends. Our Mentors are mostly contractors, who have been
+            working in the industry for a long time and we have the experience to help our peers up-skill fast.
           </p>
         </div>
+        {}
         <iframe className='center' src='https://player.vimeo.com/video/186516527?color=FFD734&byline=0&portrait=0' width='640' height='360'
           frameBorder='0' webkitallowfullscreen mozallowfullscreen allowFullScreen></iframe>
         <p className='center' style={{marginTop: '20px', marginBottom: '10px'}}>
-          The Serverless Framework is the world’s leading development framework for building serverless architectures.
+          We also help businesses develop web based apps to leverage their data and other online tools in a cost effective and considered approach, that
+          many find quite enlightening.
         </p>
         <div className={styles.button}>
           <Button
             className={styles.button}
             kind='black'
-            href='/framework/docs/guide/'>
+            href='/courses/javascript/'>
             Get Started
           </Button>
         </div>
         <h2 className={styles.header} style={{marginBottom: '20px', marginTop: '50px'}}>
-          Why Use The Framework
+          Why register for HeadForCode?
         </h2>
         <div className={styles.componentBox}>
           <div className={styles.component}>

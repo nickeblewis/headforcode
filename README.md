@@ -1,11 +1,11 @@
-# Serverless Site
+# HeadForCode Site
 
 Uses react, react-router, redux and [Phenomic](https://github.com/MoOx/phenomic) under the hood.
 
 This site is 100% serverless! Wooooooo!
 
 - [See the site](https://serverless.com/)
-- [Contribute to the blog](https://github.com/serverless/blog)
+- [Contribute to the blog](https://github.com/nickeblewis/headforcode)
 
 # Setup
 
@@ -33,9 +33,9 @@ If your `npm run build` succeeds locally you can go ahead and push up to a branc
 
 ---
 
-## Publishing Updates to Serverless.com
+## Publishing Updates to HeadForCode.com
 
-We are using [netlify](http://netlify.com) to distribute the site. It pushes any changes made to the `master` branch to the live serverless.com site.
+We are using [netlify](http://netlify.com) to distribute the site. It pushes any changes made to the `master` branch to the live headforcode.com site.
 
 So, whenever making changes to the site, it's important to do those on branches and submit a pull request for us to merge into master.
 
@@ -50,10 +50,25 @@ To add custom scripts to page templates you will need to use React Helmet
 import Helmet from 'react-helmet'
 <Helmet
    script={[
-      {'src': 'http://davidwells.io/wp-content/themes/david-wells/js/prism.js', 'type': 'text/javascript'}
+      {'src': 'http://nicklewis.net/wp-content/themes/default/js/prism.js', 'type': 'text/javascript'}
    ]}
    link={[
-      {'rel': 'stylesheet', 'href': 'http://davidwells.io/wp-content/themes/david-wells/css/prism.css'},
+      {'rel': 'stylesheet', 'href': 'http://nicklewis.net/wp-content/themes/default/css/prism.css'},
    ]}
  />
 ```
+
+## Learning more about how this website works
+
+Many of the folders in this project contain further README.md files, much like this one. These files are written to help you understand how this site works 
+and how you can modify it, the workflow to use, how we conduct the process of code reviews etc. Many of the JS files are commented too.
+
+## Other reading and online resources
+
+Phenomic
+ReactJS on Facebook
+Algolia
+Google Analytics
+Auth0
+serverless
+Markdown

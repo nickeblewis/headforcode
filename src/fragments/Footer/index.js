@@ -18,9 +18,9 @@ export default class Footer extends Component {
           {cta}
         </div>
         <div className={styles.footerLinks}>
-          <a href={"https://serverless.com"} className={styles.link}>
+          <a href={"https://headforcode.com"} className={styles.link}>
             <span className={styles.reference}>
-              {"Serverless, Inc. © 2016"}
+              {"HeadForCode © 2016"}
             </span>
           </a>
         </div>

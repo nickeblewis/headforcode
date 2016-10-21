@@ -12,6 +12,7 @@ import Shell from '../Default'
 import Breadcrumbs from '../../components/Breadcrumbs'
 import styles from './Doc.css'
 import Helmet from 'react-helmet'
+import disqus from '../Post/disqus-script'
 
 /*
 TODO: add previous release tag links https://developer.github.com/v3/repos/releases/
@@ -127,13 +128,8 @@ class Doc extends Component {
           </div>
           <div className={styles.sidebarBlock}>
             <div className={styles.sidebarLinks}>
-              <a href='https://gitter.im/serverless/serverless'>
-                Join chat on Gitter
-              </a>
-            </div>
-            <div className={styles.sidebarLinks}>
-              <a href='http://forum.serverless.com'>
-                Read Serverless Forum
+              <a href='http://headforcode.com'>
+                Join chat on Slack
               </a>
             </div>
           </div>
@@ -152,11 +148,13 @@ class Doc extends Component {
       body,
     } = this.props
 
-    const githubURL = 'https://github.com/serverless/serverless/edit/master' + head.gitLink
+    const githubURL = 'https://github.com/nickeblewis/headforcode/edit/master' + head.gitLink
 
     const markdownContent = (
       <BodyContainer>
         {body}
+        <div className={styles.comments} id='disqus_thread'></div>
+        <Helmet script={[{'type': 'text/javascript', 'innerHTML': disqus}]} />
       </BodyContainer>
     )
 
@@ -206,8 +204,8 @@ class Doc extends Component {
 function initializeSearch () {
   if (typeof docsearch !== 'undefined') {
     docsearch({ // eslint-disable-line
-      apiKey: 'd5a39b712b86965d93534207ef5423df',
-      indexName: 'serverless',
+      apiKey: '59f9337d3f0365e01fab284ea5cd2737',
+      indexName: 'headforcode',
       inputSelector: '#algolia-search',
       debug: false
     })
