@@ -3,7 +3,7 @@ title: Lesson 1 - Cloning a project
 layout: Doc
 ---
 
-# Steps to take
+# Lesson 1 - Cloning a project
 
 Launch Git Bash via the Windows Start Menu and then change directory to the "Proj" folder that you created in last weeks lessons.
 
