@@ -13,7 +13,7 @@ This week we are going to start doing some new things alongside CodeAcademy and 
 
 * [Lesson 1](lesson1): Learn how to "clone" this website to your laptop using Git
 * [Lesson 2](lesson2): Learn how to create a "new branch"
-* [Lesson 3](lesson33): Learn how to create a "pull request" in order to have your code reviewed
+* [Lesson 3](lesson3): Learn how to create a "pull request" in order to have your code reviewed
 * [Lesson 4](lesson4): Learn how I then merge your branch into the Master branch
 * [Lesson 5](lesson5): Learn how this triggers changes to be deployed to the headforcode.netlify.com server 
 * [Summary](summary): We will then summarise what you've learnt over the course of the week and how we shall continue to use these workflows going forward
