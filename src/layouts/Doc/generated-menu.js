@@ -1,30 +1,36 @@
 module.exports = {
-  '/courses/javascript': {
+  '/courses/dandavis/': {
     'index': [
       {
-        'path': '/courses/javascript/index',
+        'path': '/courses/dandavis/index',
         'title': 'Docs',
         'order': 5
       }
     ],
     'children': [
       {
-        'path': '/courses/javascript/hello-world',
-        'title': 'Week 1',
+        'path': '/courses/dandavis/week42',
+        'title': 'Week 42',
         'order': 1
       },
       {
-        'path': '/courses/week2',
-        'title': 'Week 2',
+        'path': '/courses/dandavis/week43',
+        'title': 'Week 43',
         'order': 2
       }
     ]
   },
-  '/courses/week1': {
+  '/courses/dandavis/week43/': {
     'index': [
       {
-        'path': '/courses/javascript/index',
-        'title': 'Week 1',
+        'path': '/courses/dandavis/week43/index',
+        'title': 'Week 43'
+      }
+    ],
+    'children': [
+      {
+        'path': '/courses/dandavis/week43/lesson1',
+        'title': 'Lesson 1 - Cloning a project',
         'order': 1
       }
     ]
