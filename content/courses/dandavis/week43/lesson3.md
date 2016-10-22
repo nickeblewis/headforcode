@@ -13,5 +13,8 @@ is not going to break anything that is currently running ok. A sanity check but 
 
 So code reviews are something we shall be doing a lot of in the months to come.
 
-<iframe src="https://player.vimeo.com/video/188433707" width="640" height="427" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/188433707" width="640" height="427" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen"true" allowfullscreen"true"></iframe>
 <p><a href="https://vimeo.com/188433707">pull-requests</a> from <a href="https://vimeo.com/nicklewis">Nick Lewis</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+<iframe src="https://player.vimeo.com/video/188435293" width="640" height="360" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen"true" allowfullscreen"true"></iframe>
+<p><a href="https://vimeo.com/188435293">visualstudiogit</a> from <a href="https://vimeo.com/nicklewis">Nick Lewis</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
