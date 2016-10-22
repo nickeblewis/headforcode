@@ -67,7 +67,33 @@ So at this moment in time, your new branch only exists on your machine and we sh
 
 1. Let's launch Visual Studio Code via Windows and then open your **/c/proj/headforcode** project.
 2. Find the README.md file in the root directory 
-3. Make an edit to it, just add your name somewhere or something like that
+3. Make an edit to it, just add your name somewhere or something like that, you will see I added my name at the bottom earlier!!
+4. Now go back to your Terminal and run the following commands one after the other
+
+```bash
+$ git add .
+$ git commit -am "Added my name to the file"
+$ git push
+```
+
+That last command will have displayed a fatal error and this is correct because there is no matching branch on the origin server just yet, we haven't created one yet and in fact Git will have 
+provided you with some help, the command they suggest is exactly what you need to run next
+
+```bash
+£ git push --set-upstream origin mynewbranch
+```
+
+This time you will see some positive feedback being output to the Terminal as Git pushes your branch up to Github, so a quick **git status** should reveal that your branch is up-to-date with 
+origin/nicksnewbranch, nothing to commit, working tree clean.
+
+Now is a good time to demonstrate what happens when you switch branches
+
+```bash
+$ git checkout master
+```
+
+
+
 
 
 
