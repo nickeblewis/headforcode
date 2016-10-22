@@ -7,17 +7,8 @@ gitLink: \docs\README.md
 
 # Welcome...
 
-Hi Dan welcome to your personalised HeadForCode landing page, it is hear where you can find your way around.
-
-## Coming up
-
-* Week 43 
-
-## Past weeks
-
-* [Week 42](week42)
+I am now starting to put together a more stuctured series of weekly courses that will focus on various things to help you learn, to complement CodeAcademy. We are splitting it down into weeks 
+numbered by calendar weeks and I shall let you know which one we are doing each week.
 
 
-
-This week we shall be...
 

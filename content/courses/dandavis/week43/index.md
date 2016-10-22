@@ -5,7 +5,7 @@ layout: Doc
 gitLink: \docs\README.md
 ---
 
-# What we shall be doing this week...
+# This weeks excercises
 
 This week we are going to start doing some new things alongside CodeAcademy and Farnborough Guide, here is a quick overview.
 
@@ -18,3 +18,10 @@ This week we are going to start doing some new things alongside CodeAcademy and 
 * This all then culminates in seeing your changes being deployed to the headforcode.netlify.com server 
 * We will then summarise what you've learnt over the course of the week and how we shall continue to use these workflows for the next piece of work
 * What units have we covered in doing all of this?
+
+## CodeAcademy
+
+Once you have polished off the Command Line module, see if you can take a look at their courses on the following, they will complement the above excercises.
+
+* Git
+* Building a website 
