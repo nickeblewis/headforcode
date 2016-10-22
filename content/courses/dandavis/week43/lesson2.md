@@ -5,6 +5,9 @@ layout: Doc
 
 # Lesson 2 - Creating a branch
 
+NOTE: I have added you to the Github headforcode project, you will have received an email about this and you may need to click on a link to verify it. This is important, as otherwise some 
+of the steps in this tutorial may not work for you...
+
 ## Let's talk about Git in more depth
 
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. In any case I recommend at some point 
@@ -92,6 +95,19 @@ Now is a good time to demonstrate what happens when you switch branches
 $ git checkout master
 ```
 
+If you have Visual Studio Code open still, you will have noticed your changes vanish!!! Oh no!!! This is fine, it is ok, don't worry! Rememeber the changes you made were to the other branch and not 
+master. If you now:
+
+```bash
+$ git checkout mynewbranch
+```
+
+You will see that your changes are back and I think this demonstrates the point of branches, you can work on different versions of a codebase (what we call a project of code) and not actually lose anything. 
+It also demonstrates one othe thing I have not mentioned yet - the fact that you don't need to create loads of different directories for different versions of a project. It is so neat and tidy.
+
+### Let's see what is on Github
+
+Go to http://www.github.com and login with the account you created last week
 
 
 
