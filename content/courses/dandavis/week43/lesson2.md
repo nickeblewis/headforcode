@@ -24,7 +24,7 @@ Normal directories don't show the master bit on the end. It is this piece of inf
 the master. Your local has one of these from the first moment you either manually create the Git repository (using **git init**) locally or you clone a project, as you did in [Lesson 1](lesson1).
 The remote server, known as "Origin" and effectively our https://github.com/nickeblewis/headforcode project will also have a matching branch of master.
 
-So when you wun a **git push** command the changes you will have added using **git add .** followed by **git commit -m [message]** will get pushed and marged into the remote branch of the same name.
+So when you run a **git push** command the changes you will have added using **git add .** followed by **git commit -m [message]** will get pushed and merged into the remote branch of the same name.
 
 This takes a little bit of getting used to but once you've done it a few times, it will click and then it becomes easy to use.
 
@@ -86,8 +86,10 @@ provided you with some help, the command they suggest is exactly what you need t
 £ git push --set-upstream origin mynewbranch
 ```
 
+NOTE: Future pushes to this branch need only be run using **git push**, you only need to use **--set-upstream** once for new branches.
+
 This time you will see some positive feedback being output to the Terminal as Git pushes your branch up to Github, so a quick **git status** should reveal that your branch is up-to-date with 
-origin/nicksnewbranch, nothing to commit, working tree clean.
+__origin/nicksnewbranch__, nothing to commit, working tree clean.
 
 Now is a good time to demonstrate what happens when you switch branches
 
@@ -96,7 +98,7 @@ $ git checkout master
 ```
 
 If you have Visual Studio Code open still, you will have noticed your changes vanish!!! Oh no!!! This is fine, it is ok, don't worry! Rememeber the changes you made were to the other branch and not 
-master. If you now:
+master. If you now type in and run:
 
 ```bash
 $ git checkout mynewbranch
@@ -107,7 +109,11 @@ It also demonstrates one othe thing I have not mentioned yet - the fact that you
 
 ### Let's see what is on Github
 
-Go to http://www.github.com and login with the account you created last week
+Go to http://www.github.com and login with the account you created last week. You should see the headforcode project repository listed and you can open this up. If you look just beneath the description 
+you will see a row of tabs, commits, branch(es), releases and contributors. Having pushed your branch up, there should now be two branches available, so click on this tab to se what we now have. 
+
+That will do for now, in the next lesson we will learn how to create a "Pull Request" which will notify me as the owner of the project, that someone has made changes and they want me to review them. This is what we call a "Code Review". More on these in the next lesson.
+
 
 
 
