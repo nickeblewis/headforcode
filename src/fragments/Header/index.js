@@ -85,6 +85,11 @@ export default class Header extends Component {
                   </Link>
                 </li>
                 <li className={styles.navItem}>
+                  <Link to='/projects' className={styles.link}>
+                    Projects
+                  </Link>
+                </li>
+                <li className={styles.navItem}>
                   <a href='https://www.github.com/nickeblewis/headforcode' target='_blank' className={styles.link}>
                     <Svg svg={gitHubSvg} cleanup />
                   </a>
