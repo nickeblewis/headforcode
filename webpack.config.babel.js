@@ -161,6 +161,9 @@ export const makeConfig = (config = {}) => {
       //    context: process.cwd(),
       //    manifest: require(path.resolve(pkg.dllPlugin.path, 'vendorPackages.json'))
       // }),
+      new CopyWebpackPlugin([
+        {from: 'admin', to: 'admin'},
+      ]),
       new PhenomicLoaderFeedWebpackPlugin({
         // here you define generic metadata for your feed
         feedsOptions: {
