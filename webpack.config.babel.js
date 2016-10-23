@@ -6,6 +6,7 @@ import { phenomicLoader } from 'phenomic'
 import PhenomicLoaderFeedWebpackPlugin from 'phenomic/lib/loader-feed-webpack-plugin'
 import pkg from './package.json'
 import getSiteConfig from './src/_config'
+import CopyWebpackPlugin from "copy-webpack-plugin"
 
 // note that this webpack file is exporting a "makeConfig" function
 // which is used for phenomic to build dynamic configuration based on your needs
