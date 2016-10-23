@@ -17,6 +17,10 @@ This week we are going to start doing some new things alongside CodeAcademy and 
 * [Lesson 4](lesson4): Learn how we then merge the branch back into the master branch
 * [Excercise 1](excercise1): Let's bring together lessons 1-4 and do something slightly constructive!
 
+## and now...
+
+Having completed the above excercises that have introduced you to what we call the "Git Workflow" or simply "Gitflow" there are some other jobs to be carried out on HeadForCode, I shall let you know about these once you are ready :-)
+
 ## What units have we covered in doing all of this?
 
 * Object Oriented Software
@@ -28,3 +32,7 @@ Once you have polished off the Command Line module, see if you can take a look a
 
 * Git
 * Building a website 
+
+## Next week
+
+We shall start looking at how we can build Farnborough Guide using this alternative system and they same workflow you've learnt about during week 43. Check back soon for more details!
