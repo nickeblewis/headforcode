@@ -4,7 +4,6 @@ import handleClickAway from '../../utils/handleClickAway'
 import Svg from 'react-svg-inline'
 import gitHubSvg from '../../assets/icons/github.svg'
 import styles from './Header.css'
-import NewAuth from '../../components/NewAuth/NewAuth'
 // import ProfileIcon from '../../components/ProfileIcon'
 
 /*
@@ -85,13 +84,6 @@ export default class Header extends Component {
                     NVQ
                   </Link>
                 </li>
-                <NewAuth loggedInComponent={<span></span>}>
-                  <li className={styles.navItem}>
-                    <span className={styles.link + ' ' + styles.yellowLink}>
-                      Join Beta
-                    </span>
-                  </li>
-                </NewAuth>
                 <li className={styles.navItem}>
                   <a href='https://www.github.com/nickeblewis/headforcode' target='_blank' className={styles.link}>
                     <Svg svg={gitHubSvg} cleanup />
