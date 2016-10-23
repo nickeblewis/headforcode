@@ -70,7 +70,7 @@ export default class Header extends Component {
                   </Link>
                 </li>
                 <li className={styles.navItem}>
-                  <Link to='/blog' className={styles.link}>
+                  <Link to='/posts' className={styles.link}>
                     Blog
                   </Link>
                 </li>
