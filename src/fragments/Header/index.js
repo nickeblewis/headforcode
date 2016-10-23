@@ -65,6 +65,11 @@ export default class Header extends Component {
                   </Link>
                 </li>
                 <li className={styles.navItem}>
+                  <Link to='/company/about' className={styles.link}>
+                    About
+                  </Link>
+                </li>
+                <li className={styles.navItem}>
                   <Link to='/blog' className={styles.link}>
                     Blog
                   </Link>
