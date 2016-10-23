@@ -21,6 +21,8 @@ This week we are going to start doing some new things alongside CodeAcademy and 
 
 Having completed the above excercises that have introduced you to what we call the "Git Workflow" or simply "Gitflow" there are some other jobs to be carried out on HeadForCode, I shall let you know about these once you are ready :-)
 
+* [Excercise 2](excercise2): Removing unwanted stuff from the project
+
 ## What units have we covered in doing all of this?
 
 * Object Oriented Software
