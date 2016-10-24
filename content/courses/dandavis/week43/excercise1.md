@@ -14,7 +14,7 @@ $ cd /c/proj/headforcode
 $ git status
 ```
 
-We should be in the Master branch, the **git status** command will inform us of this and you can also tell form the Terminal window too. If we are not and you only need to do this, if you are in an alternative branch:
+We should be in the Master branch, the ``git status`` command will inform us of this and you can also tell form the Terminal window too. If we are not and you only need to do this, if you are in an alternative branch:
 
 ```bash
 $ git checkout Master
@@ -34,7 +34,7 @@ You may have spotted earlier, that on the home page there is a section of text a
 
 ## Launch VSC
 
-Launch Visual Studio Code and open up the headforcode project folder under /c/proj/headforcode and using the search tool, look for "coca cola". The search tool is in the left-hand vertical menu bar along with Explorer, Git, Debug and Extensions. You can also get to it by pressing the following combination of keys CTRL+SHIFT+F.
+Launch Visual Studio Code and open up the headforcode project folder under ``/c/proj/headforcode`` and using the search tool, look for "coca cola". The search tool is in the left-hand vertical menu bar along with Explorer, Git, Debug and Extensions. You can also get to it by pressing the following combination of keys CTRL+SHIFT+F.
 
 It will find two files where "coca cola" is mentioned:
 

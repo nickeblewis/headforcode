@@ -11,11 +11,11 @@ This week we are going to start doing some new things alongside CodeAcademy and 
 
 **Time to complete:** 1 week
 
-* [Lesson 1](lesson1): Learn how to "clone" this website to your laptop using Git
-* [Lesson 2](lesson2): Learn how to create a "new branch"
-* [Lesson 3](lesson3): Learn how to create a "pull request"
-* [Lesson 4](lesson4): Learn how we then merge the branch back into the master branch
-* [Excercise 1](excercise1): Let's bring together lessons 1-4 and do something slightly constructive!
+* DONE: [Lesson 1](lesson1): Learn how to "clone" this website to your laptop using Git
+* DONE: [Lesson 2](lesson2): Learn how to create a "new branch"
+* DONE: [Lesson 3](lesson3): Learn how to create a "pull request"
+* DONE: [Lesson 4](lesson4): Learn how we then merge the branch back into the master branch
+* TUESDAY: [Excercise 1](excercise1): Let's bring together lessons 1-4 and do something slightly constructive!
 
 ## and now...
 
