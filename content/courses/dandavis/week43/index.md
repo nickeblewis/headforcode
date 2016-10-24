@@ -11,6 +11,8 @@ This week we are going to start doing some new things alongside CodeAcademy and 
 
 **Time to complete:** 1 week
 
+## Introduction to how we use Git workflows
+
 * DONE: [Lesson 1](lesson1): Learn how to "clone" this website to your laptop using Git
 * DONE: [Lesson 2](lesson2): Learn how to create a "new branch"
 * DONE: [Lesson 3](lesson3): Learn how to create a "pull request"
@@ -21,7 +23,12 @@ This week we are going to start doing some new things alongside CodeAcademy and 
 
 Having completed the above excercises that have introduced you to what we call the "Git Workflow" or simply "Gitflow" there are some other jobs to be carried out on HeadForCode, I shall let you know about these once you are ready :-)
 
-* [Excercise 2](excercise2): Removing unwanted stuff from the project
+* TUESDAY: [Excercise 2](excercise2): Removing unwanted stuff from the project
+
+## Becoming familiar with the new HeadForCode website project
+
+* TODO - I am writing some more guides for this week and next
+
 
 ## What units have we covered in doing all of this?
 
