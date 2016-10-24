@@ -11,7 +11,6 @@ Currently being developed in Umbraco but are considering moving it to a Phenomic
 
 ## Mapugo
 
-
 ## Nfolio
 
 ## nicklewis.tech
@@ -25,3 +24,7 @@ Currently being developed in Umbraco but are considering moving it to a Phenomic
 ## propellercam.co.uk
 
 ## tutl.io
+
+## General research
+
+Looking constantly at possibilities plus I believe that the above projects will in themselves lead to other ideas and other fragments of code that we could develop further to be able to offer people more diverse services.
