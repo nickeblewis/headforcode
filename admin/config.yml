@@ -1,5 +1,5 @@
 backend:
-  name: github-api
+  name: github
   repo: nickeblewis/headforcode # owner/repo
   branch: master # master
 
