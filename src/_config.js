@@ -2,6 +2,11 @@
  * Project config
  * NOTE: No private data/keys should be stored here.
  */
+
+/**
+ * TODOS
+ * - The API section is not valid for HeadForCode but it wouls be great to build our own newsletter app
+ */
 module.exports = function siteConfig (isProduction) {
   return (
     {
