@@ -5,4 +5,6 @@ layout: Default
 
 ## About us
 
-TODO
+* We develop UIs (using ReactJS) to connect you with your online micro-services
+* We write
+* We provide training/mentoring
