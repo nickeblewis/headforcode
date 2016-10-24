@@ -1,5 +1,6 @@
 ---
 title: We research and we develop
+layout: Default
 ---
 
 # Lets begin...
@@ -46,4 +47,9 @@ we shall explore it in more depth both in isolation and together with other libs
 ## Apollo
 
 http://www.apollostack.com/
+
+## New interests
+
+* http://apigee.com/about/developers
+* https://www.algolia.com/doc/guides/indexing/import-synchronize-data/javascript
 
