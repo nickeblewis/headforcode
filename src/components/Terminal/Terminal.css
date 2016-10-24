@@ -18,6 +18,7 @@
   border-radius: 3px;
   background: #191919 url(../../assets/images/terminal_glare.png) no-repeat center;
   background-size: contain;
+  margin-bottom: 15px;
 }
 .terminalHead {
   width: 100%;

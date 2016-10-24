@@ -6,7 +6,6 @@ import Button from '../../components/Button/Button'
 import terminalCommands from './terminalCommands'
 import architectureGif from '../../assets/images/architecture.gif'
 import frameworkGif from '../../assets/images/framework.gif'
-import awsLogo from '../../assets/images/aws_logo.png'
 import communityJpg from '../../assets/images/community.png'
 import customerCoke from '../../assets/images/customer_coke.png'
 import sparkle from '../../assets/images/home_sparkle.png'
@@ -45,12 +44,14 @@ export default class Homepage extends Component {
             <div className={styles.bg}>
               <div className={styles.hero}>
                 <div className={styles.heroLeft + ' fadeIn fadeInShort'}>
-
-                  <div className={styles.heroFramework}></div>
-
+                </div>
+                <div ref='animDiv' className={styles.heroRight + ' zoomxIn zoomInxLong'}>
                   <div className={styles.tagline}>
                     Learn the latest tricks of the web trade
                   </div>
+                  <img ref='sparkle' className={styles.sparkle} src={sparkle} role='presentation' />
+                  <Terminal commands={terminalCommands} />
+
                   <div className={styles.buttons}>
                     <div className={styles.cta}>
                       <Button
@@ -81,14 +82,6 @@ export default class Homepage extends Component {
                     </div>
                   </div>
                 </div>
-                <div ref='animDiv' className={styles.heroRight + ' zoomxIn zoomInxLong'}>
-                  <img ref='sparkle' className={styles.sparkle} src={sparkle} role='presentation' />
-                  <Terminal commands={terminalCommands} />
-                </div>
-              </div>
-              <div className={styles.poweredBy}>
-                <span>Powered by AWS Lambda</span>
-                <img className={styles.awsLogo} src={awsLogo} alt='aws Lambda' />
               </div>
             </div>
 

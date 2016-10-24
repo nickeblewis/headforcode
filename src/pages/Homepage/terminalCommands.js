@@ -27,7 +27,7 @@ module.exports = [
     type: 'command'
   },
   {
-    text: 'Explore the <a href="/courses">courses</a> or connect with the <a href="https://gitter.im/headforcode/headforcode">community</a>',
+    text: 'Explore our <a href="/courses">courses</a>',
     type: 'cta',
     skip: true
   },
