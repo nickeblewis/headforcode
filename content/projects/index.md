@@ -5,25 +5,31 @@ title: Our Projects
 
 # Our Projects
 
-## Farnborough Guide
+## Website ideas
+
+### Farnborough Guide
 
 Currently being developed in Umbraco but are considering moving it to a Phenomic based project.
 
-## Mapugo
+### Mapugo
 
-## Nfolio
+### Nfolio
 
-## nicklewis.tech
+### nicklewis.tech
 
-## nicklewis.photo
+### nicklewis.photo
 
-## headfortech.com
+### headfortech.com
 
-## plantagain.com
+### plantagain.com
 
-## propellercam.co.uk
+### propellercam.co.uk
 
-## tutl.io
+### tutl.io
+
+## Technologies
+
+### IoT
 
 ## General research
 
