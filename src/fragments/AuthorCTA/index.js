@@ -6,9 +6,9 @@ const AuthorCTA = (props) => {
   return (
     <Block className={props.className} style={props.style}>
       <h3>
-        Join the Serverless<br />Guest Author Program
+        Join the HeadForCode<br />Newsletter
       </h3>
-      <p>Have an awesome serverless story, tip, or trick? Share it with us.
+      <p>We can help you learn what you need to know about, no fuss
       </p>
       <Link to='/blog/contribute/'>Learn More</Link>
     </Block>

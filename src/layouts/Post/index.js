@@ -1,10 +1,8 @@
 import React, { Component, PropTypes } from 'react'
 import Helmet from 'react-helmet'
 import { BodyContainer } from 'phenomic'
-import { Link } from 'react-router'
 import Page from '../Default'
 import FixedSocialButtons from '../../components/FixedSocialButtons'
-import Block from '../../components/Block'
 import BetaCTA from '../../fragments/BetaCTA'
 import AuthorCTA from '../../fragments/AuthorCTA'
 import Svg from 'react-svg-inline'
@@ -51,29 +49,6 @@ class Post extends Component {
           </div>
 
           <div className={styles.sidebar}>
-            <Block className={styles.sidebarBlock}>
-              <h2>Quick Links</h2>
-              <div className={styles.sidebarLinks}>
-                <Link to='/framework/docs/guide'>
-                  Read the Serverless Guide
-                </Link>
-              </div>
-              <div className={styles.sidebarLinks}>
-                <Link to='/framework/docs'>
-                  Serverless documentation
-                </Link>
-              </div>
-              <div className={styles.sidebarLinks}>
-                <a href='https://gitter.im/serverless/serverless'>
-                  Chat in Gitter
-                </a>
-              </div>
-              <div className={styles.sidebarLinks}>
-                <a href='http://forum.serverless.com'>
-                  Ask Questions on the Forum
-                </a>
-              </div>
-            </Block>
             <div className={styles.editLinkWrapper}>
               <span className={styles.editLink}>
                 <Svg svg={gitHubSvg} cleanup />

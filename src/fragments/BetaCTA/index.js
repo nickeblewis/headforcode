@@ -23,9 +23,7 @@ const BetaCTA = (props) => {
       loggedInComponent={loggedIn}
     >
       <Block className={styles.container}>
-        <h1 className={styles.title}>The Serverless platform is coming</h1>
-        <img src={platformImage} className={styles.image} role='presentation' />
-        <Button>{props.buttonText}</Button>
+        <h1 className={styles.title}>We shall chuck a Google Adwords ad in here!</h1>
       </Block>
     </NewAuth>
   )

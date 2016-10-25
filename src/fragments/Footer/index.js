@@ -1,22 +1,11 @@
 import React, { Component } from 'react'
 // import FeedbackModal from '../../fragments/FeedbackModal'
-import FooterBetaCTA from '../../fragments/FooterBetaCTA'
 import styles from './index.css'
 
 export default class Footer extends Component {
   render () {
-    let cta
-    if (typeof window !== 'undefined') {
-      const url = window.location.pathname
-      if (url === '/blog/' || url === '/' || url.match(/\/docs\//) || url.match(/\/framework\//)) {
-        cta = <FooterBetaCTA />
-      }
-    }
     return (
       <footer className={styles.footer}>
-        <div>
-          {cta}
-        </div>
         <div className={styles.footerLinks}>
           <a href={"https://headforcode.com"} className={styles.link}>
             <span className={styles.reference}>

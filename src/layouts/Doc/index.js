@@ -124,14 +124,7 @@ class Doc extends Component {
         <div ref='sidebar' className={styles.sidebarInner}>
           <div className={styles.searchWrapper}>
             <input className={styles.searchBox} id='algolia-search'
-              placeholder='&#9889;  Search docs' type='text' />
-          </div>
-          <div className={styles.sidebarBlock}>
-            <div className={styles.sidebarLinks}>
-              <a href='http://headforcode.com'>
-                Join chat on Slack
-              </a>
-            </div>
+              placeholder='Search content' type='text' />
           </div>
           {childrenItems}
           <div className={styles.versionNumber}>
