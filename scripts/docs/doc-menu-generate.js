@@ -13,7 +13,10 @@ var folderLookup = {}
 var folderList = fs.readdirSync(config.oldDocsPath).filter(function (x) {
   return x !== '.DS_Store' && !x.match(/\.md/)
 }).map(function (folder, i) {
+  
   var order = folder.match(/([0-9]{2})/g)
+
+  console.log(folder);
   var orderNumber = order.length
   if (order && order.length) {
     orderNumber = parseInt(order[order.length - 1])
