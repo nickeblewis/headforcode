@@ -30,6 +30,7 @@ Currently being developed in Umbraco but are considering moving it to a Phenomic
 ## Technologies
 
 ### IoT
+### Automation
 
 ## General research
 
