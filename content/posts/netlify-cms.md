@@ -2,4 +2,6 @@
 title: Netlify CMS
 ---
 
-This is a test
+# Netlify CMS
+
+Just testing
