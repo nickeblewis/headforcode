@@ -52,7 +52,7 @@ export default class PageError extends Component {
           It seems you found a broken link. Do not hesitate to report this page!
         </div>
         <div>
-          Tweet at <a target='_blank' href={tweet}>@goServerless</a> or <a target='_blank' href='https://github.com/serverless/site/issues'>open a github issue</a>
+          Tweet at <a target='_blank' href={tweet}>@headforcode</a> or <a target='_blank' href='https://github.com/nickeblewis/headforcode/site/issues'>open a github issue</a>
         </div>
       </div>
     )
