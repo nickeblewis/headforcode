@@ -1,11 +1,9 @@
 ---
 layout: Post
-title: Interview with Peter Sbarski of Serverlessconf London + Registration Discount
+title: 'Interview with Peter Sbarski of Serverlessconf London + Registration Discount'
 date: '2016-09-09'
 gitLink: \2016-09-09-interview-with-peter-sbarski-of-serverlessconf.md
-author: nickeblewis
 ---
-
     
 ![](https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/blog/legacy/2016/09/Screen-Shot-2016-09-02-at-9.44.03-AM.png)
 

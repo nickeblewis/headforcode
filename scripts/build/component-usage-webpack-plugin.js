@@ -15,7 +15,7 @@ ComponentUsagePlugin.prototype.apply = function apply (compiler) {
     // Parse for component files
     // var componentsUsed = getComponentsUsed(data)
 
-    // Send to serverless function
+    // Send to serverle55 function
     // sendToAWSLambda(packageInfo, componentsUsed)
   })
 }

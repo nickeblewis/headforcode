@@ -1,5 +1,5 @@
 ---
-title: About Serverless Inc
+title: About HeadForCode
 layout: Default
 ---
 
@@ -21,3 +21,4 @@ these posts are circulated around the social media
 
 we compose bespoke training articles for our customers
 
+REFINE
