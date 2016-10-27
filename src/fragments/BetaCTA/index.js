@@ -5,6 +5,7 @@ import platformImage from '../../assets/images/platform_4.gif'
 import Block from '../../components/Block'
 import Button from '../../components/Button'
 import styles from './BetaCTA.css'
+import GoogleAd from 'react-google-ad'
 
 const BetaCTA = (props) => {
   const url = 'https://serverless.com/framework/'
@@ -24,7 +25,9 @@ const BetaCTA = (props) => {
     >
       <Block className={styles.container}>
         <h1 className={styles.title}>We shall chuck a Google Adwords ad in here!</h1>
+
       </Block>
+      <GoogleAd client='ca-pub-7074532723193891' slot='9801794760' format='auto' />
     </NewAuth>
   )
 }

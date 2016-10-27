@@ -136,6 +136,7 @@
     "react": "^15.0.0-rc.1",
     "react-auto-form": "^1.3.0",
     "react-dom": "^15.0.0-rc.1",
+    "react-google-ad": "^1.0.2",
     "react-google-analytics": "^0.2.0",
     "react-helmet": "^3.0.0",
     "react-player": "^0.12.0",
