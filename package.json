@@ -139,6 +139,8 @@
     "react-dom": "^15.0.0-rc.1",
     "react-google-analytics": "^0.2.0",
     "react-helmet": "^3.0.0",
+    "react-player": "^0.12.0",
+    "react-vimeo": "^0.2.2",
     "redux-thunk": "^2.1.0"
   },
   "dllPlugin": {

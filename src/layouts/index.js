@@ -5,3 +5,4 @@
 export Default from './Default'
 export Post from './Post'
 export Doc from './Doc'
+export Vimeo from './Vimeo'
