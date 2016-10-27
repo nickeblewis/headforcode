@@ -15,3 +15,5 @@ secrets.json
 #OS STUFF
 .DS_Store
 .tmp
+
+/content/blog
