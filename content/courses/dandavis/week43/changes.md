@@ -1,6 +1,7 @@
 ---
 title: Making changes
 layout: Default
+gitLink: /content/courses/dandavis/week44/index.md
 ---
 
 Hi Dan,

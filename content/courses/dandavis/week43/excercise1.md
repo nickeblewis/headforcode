@@ -1,6 +1,7 @@
 ---
 title: Excercise 1 - Let's do something...
 layout: Doc
+gitLink: /content/courses/dandavis/week43/excercise1.md
 ---
 
 # Excercise 1 - Let's do something...
