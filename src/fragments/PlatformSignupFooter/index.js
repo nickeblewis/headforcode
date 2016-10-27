@@ -53,10 +53,10 @@ export default class PlatformSignupFooter extends Component {
           >
           <div className={styles.inner}>
             <div className={styles.text}>
-              The Serverless Platform is coming
+              HeadForCode is coming to a laptop near you
             </div>
             <NewAuth>
-              <button className={styles.button}>Register for the Beta</button>
+              <button className={styles.button}>Register for our Newsletter</button>
             </NewAuth>
           </div>
         </HelloBar>
