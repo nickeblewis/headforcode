@@ -17,6 +17,11 @@ module.exports = {
         'path': '/courses/dandavis/week43',
         'title': 'Week 43',
         'order': 2
+      },
+      {
+        'path': '/courses/dandavis/week44',
+        'title': 'Week 44',
+        'order': 2
       }
     ]
   },

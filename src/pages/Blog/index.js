@@ -8,7 +8,7 @@ import AuthorCTA from '../../fragments/AuthorCTA'
 import defaultThumbnail from '../../assets/images/platform_4.gif'
 import styles from './Blog.css'
 
-const numberOfLatestPosts = 15
+const numberOfLatestPosts = 5
 // const isClient = typeof window !== 'undefined'
 
 export default class BlogPage extends Component {
@@ -16,8 +16,8 @@ export default class BlogPage extends Component {
     collection: PropTypes.array.isRequired,
   }
   renderBlogPreview (page, i) {
-    let author = 'Serverless'
-    let avatarURL = 'https://avatars3.githubusercontent.com/u/13742415?v=3&s=60'
+    let author = 'Nick Lewis'
+    let avatarURL = 'https://avatars3.githubusercontent.com/u/440732?v=3&s=60'
     let thumbnail = defaultThumbnail
 
     if (page.authors) {

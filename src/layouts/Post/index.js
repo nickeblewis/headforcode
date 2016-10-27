@@ -31,11 +31,11 @@ class Post extends Component {
         {body}
       </BodyContainer>
     )
-    const githubURL = 'https://github.com/serverless/blog/edit/master/posts' + head.gitLink
+    const githubURL = 'https://github.com/nickeblewis/headforcode/blog/edit/master/posts' + head.gitLink
     return (
       <Page {...props} className={styles.postPage} >
         <FixedSocialButtons
-          url={`https://serverless.com/${this.props.__url}`}
+          url={`https://headforcode.com${this.props.__url}`}
           title={head.title}
         />
         <div className={styles.postWrapper}>

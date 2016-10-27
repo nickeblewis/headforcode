@@ -45,14 +45,14 @@ export default class PageError extends Component {
       errorText,
     } = this.props
     const currentUrl = (typeof window !== 'undefined') ? window.location.href : 'localhost.com'
-    const tweet = twitterShare('Hi @goServerless, It looks like this page is missing ☞( ͡° ͜ʖ ͡°)☞', currentUrl, ['FYI'])
+    const tweet = twitterShare('Hi @headforcode, It looks like this page is missing ☞( ͡° ͜ʖ ͡°)☞', currentUrl, ['FYI'])
     let content = (
       <div className={styles.content}>
         <div className={styles.message}>
           It seems you found a broken link. Do not hesitate to report this page!
         </div>
         <div>
-          Tweet at <a target='_blank' href={tweet}>@headforcode</a> or <a target='_blank' href='https://github.com/nickeblewis/headforcode/site/issues'>open a github issue</a>
+          Tweet at <a target='_blank' href={tweet}>@headforcode</a> or <a target='_blank' href='https://github.com/nickeblewis/headforcode/issues'>open a github issue</a>
         </div>
       </div>
     )
