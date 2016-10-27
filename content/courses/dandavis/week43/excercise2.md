@@ -30,12 +30,3 @@ Let's imagine I've given you a piece of work to do, it could be an enhancement, 
 $ git branch "removestuff"
 ```
 
-## Making changes to the homepage
-
-The HomePage needs some work, it looks good but we are not Serverless, we are going to strip out their stuff and swap for our own. Let's also take a top-down approach to this task.
-
-### Task 1 - Remove the Serverless logo from the blue area
-
-Just beneath the navigation header at the top of the page, is a blue-ish section that features a logo at the top. We shall swap this for our own HeadForCode logo that you designed. 
-
-First of all, let me show you around the code, so that you can begin to understand

@@ -1,6 +1,6 @@
 ---
-title: 'Serverless Blog'
-description: 'Articles, resources, and posts on serverless architectures, best practices, and how-to'
+title: 'HeadForCode Blog'
+description: 'Articles, resources, and posts'
 layout: Blog
 gitLink: \index.md
 ---

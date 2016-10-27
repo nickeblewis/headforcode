@@ -76,6 +76,3 @@ You can navigate around the site in the same way you can when accessing it via [
 To stop the site from running, go back to the Terminal and press CTRL+C at the same time, this kills the process and you can start it up again by running **npm start** once again etc etc.
 
 NOTE: At the time of writing this, comments are broken, so we shall fix that
-
-NOTE 2: You may notice that the site features "Serverless" and references to it, that is because I have used another project to kick-start this one... so our tasks will be to remove these bits 
-and pieces, swapping them for the new headforcode logo and a few other tasks too. We will come back to this later on...

@@ -2,11 +2,6 @@
 
 Uses react, react-router, redux and [Phenomic](https://github.com/MoOx/phenomic) under the hood.
 
-This site is 100% serverless! Wooooooo!
-
-- [See the site](https://serverless.com/)
-- [Contribute to the blog](https://github.com/nickeblewis/headforcode)
-
 # Setup
 
 **1. Install dependencies**
@@ -70,7 +65,7 @@ ReactJS on Facebook
 Algolia
 Google Analytics
 Auth0
-serverless
+serverle55
 Markdown
 
 ## playing with branches
