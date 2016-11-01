@@ -1,5 +1,6 @@
 ---
 title: Health & Safety
+layout: Default
 ---
 
 ## Unit summary

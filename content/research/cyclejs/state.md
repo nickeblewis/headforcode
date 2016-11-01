@@ -1,5 +1,6 @@
 ---
 title: State
+layout: Default
 ---
 
 Sourced from:

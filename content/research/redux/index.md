@@ -1,5 +1,6 @@
 ---
 title: Redux boilerplate
+layout: Default
 ---
 
 ## Essential steps

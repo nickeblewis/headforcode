@@ -1,5 +1,6 @@
 ---
 title: title
+layout: Default
 ---
 
 # Structure
