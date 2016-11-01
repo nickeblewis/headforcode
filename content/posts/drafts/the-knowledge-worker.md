@@ -1,6 +1,6 @@
 ---
 title: The Knowledge Worker
-layout: Post
+layout: _Post
 date: 2016-11-01
 ---
 
