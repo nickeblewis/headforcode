@@ -79,6 +79,7 @@ class DefaultShell extends Component {
         <Helmet script={[{'src': head.script, 'type': 'text/javascript'}]} />
       )
     }
+
     const classes = classnames(contentWrapperClass, styles.test, className)
 
     return (
