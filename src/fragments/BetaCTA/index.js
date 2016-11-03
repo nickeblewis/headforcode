@@ -27,7 +27,7 @@ const BetaCTA = (props) => {
         <h1 className={styles.title}>We shall chuck a Google Adwords ad in here!</h1>
 
       </Block>
-      <GoogleAd client='ca-pub-7074532723193891' slot='9801794760' format='auto' />
+      <GoogleAd client='ca-pub-7074532723193891' slot='7960527967' format='auto' />
     </NewAuth>
   )
 }
