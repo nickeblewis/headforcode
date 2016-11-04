@@ -65,7 +65,7 @@ ReactJS on Facebook
 Algolia
 Google Analytics
 Auth0
-serverle55
+serverless
 Markdown
 
 ## playing with branches
