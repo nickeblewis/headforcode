@@ -3,8 +3,6 @@ import NewAuth from '../../components/NewAuth'
 import { twitterShare } from '../../utils/social/share'
 import platformImage from '../../assets/images/platform_4.gif'
 import Block from '../../components/Block'
-import Button from '../../components/Button'
-import styles from './BetaCTA.css'
 // import GoogleAd from 'react-google-ad'
 
 const BetaCTA = (props) => {

@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import { BodyContainer } from 'phenomic'
 import Page from '../Default'
 import FixedSocialButtons from '../../components/FixedSocialButtons'
-import BetaCTA from '../../fragments/BetaCTA'
+// import BetaCTA from '../../fragments/BetaCTA'
 import AuthorCTA from '../../fragments/AuthorCTA'
 import Svg from 'react-svg-inline'
 import gitHubSvg from '../../assets/icons/github.svg'
@@ -59,7 +59,6 @@ class Vimeo extends Component {
                 </a>
               </span>
             </div>
-            <BetaCTA buttonText='Get early access' />
 
             <AuthorCTA style={{marginTop: '20px'}} />
           </div>

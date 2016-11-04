@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from 'react'
 import enhanceCollection from 'phenomic/lib/enhance-collection'
 import Page from '../../layouts/Default'
 import {Link} from 'react-router'
-import BetaCTA from '../../fragments/BetaCTA'
+// import BetaCTA from '../../fragments/BetaCTA'
 import AuthorCTA from '../../fragments/AuthorCTA'
 // import Newsletter from '../../fragments/Newsletter/Newsletter'
 import defaultThumbnail from '../../assets/images/platform_4.gif'
@@ -71,7 +71,6 @@ export default class BlogPage extends Component {
           ))}
           </div>
           <div className={styles.sidebar}>
-            <BetaCTA buttonText='Get early access' />
             <AuthorCTA style={{marginTop: '20px'}} />
           </div>
         </div>

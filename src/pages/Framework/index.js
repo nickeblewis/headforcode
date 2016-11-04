@@ -1,7 +1,6 @@
 import React from 'react'
 import Page from '../../layouts/Default'
 import styles from './Framework.css'
-import Button from '../../components/Button/Button'
 
 export default class PartnersPage extends React.Component {
 
