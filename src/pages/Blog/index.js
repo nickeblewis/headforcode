@@ -3,7 +3,7 @@ import enhanceCollection from 'phenomic/lib/enhance-collection'
 import Page from '../../layouts/Default'
 import {Link} from 'react-router'
 // import BetaCTA from '../../fragments/BetaCTA'
-import AuthorCTA from '../../fragments/AuthorCTA'
+import Advert from '../../fragments/Advert'
 // import Newsletter from '../../fragments/Newsletter/Newsletter'
 import defaultThumbnail from '../../assets/images/platform_4.gif'
 import styles from './Blog.css'
@@ -71,7 +71,7 @@ export default class BlogPage extends Component {
           ))}
           </div>
           <div className={styles.sidebar}>
-            <AuthorCTA style={{marginTop: '20px'}} />
+            <Advert style={{marginTop: '20px'}} />
           </div>
         </div>
       </Page>

@@ -4,7 +4,7 @@ import { BodyContainer } from 'phenomic'
 import Page from '../Default'
 import FixedSocialButtons from '../../components/FixedSocialButtons'
 // import BetaCTA from '../../fragments/BetaCTA'
-import AuthorCTA from '../../fragments/AuthorCTA'
+import Advert from '../../fragments/Advert'
 import styles from './Post.css'
 import disqus from './disqus-script'
 import ReactPlayer from 'react-player'
@@ -48,7 +48,7 @@ class Vimeo extends Component {
           </div>
 
           <div className={styles.sidebar}>
-            <AuthorCTA style={{marginTop: '20px'}} />
+            <Advert style={{marginTop: '20px'}} />
           </div>
         </div>
         <div className={styles.comments} id='disqus_thread'></div>

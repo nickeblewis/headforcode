@@ -76,7 +76,11 @@ class DefaultShell extends Component {
     if (head.script) {
     // if script defined in markdown frontmatter include it
       customScript = (
-        <Helmet script={[{'src': head.script, 'type': 'text/javascript'}]} />
+        <div>
+          <Helmet script={[{'src': head.script, 'type': 'text/javascript'}]} />
+          <Helmet script={[{'src': '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', 'type': 'text/javascript'}]}
+          />
+        </div>
       )
     }
 
