@@ -51,15 +51,6 @@ class Vimeo extends Component {
           </div>
 
           <div className={styles.sidebar}>
-            <div className={styles.editLinkWrapper}>
-              <span className={styles.editLink}>
-                <Svg svg={gitHubSvg} cleanup />
-                <a target='_blank' href={githubURL}>
-                  Edit this post on github
-                </a>
-              </span>
-            </div>
-
             <AuthorCTA style={{marginTop: '20px'}} />
           </div>
         </div>
