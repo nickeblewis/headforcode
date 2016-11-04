@@ -63,7 +63,7 @@ export default class BlogPage extends Component {
     .slice(0, numberOfLatestPosts)
     return (
       <Page {...this.props}>
-        <h2 className={styles.pageTitle}>Serverless Blog</h2>
+        <h2 className={styles.pageTitle}>HeadForCode Blog</h2>
         <div className={styles.wrapper}>
           <div className={styles.postList}>
           {latestPosts.map((page, i) => (

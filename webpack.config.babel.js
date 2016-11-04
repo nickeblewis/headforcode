@@ -168,7 +168,7 @@ export const makeConfig = (config = {}) => {
       new PhenomicLoaderFeedWebpackPlugin({
         // here you define generic metadata for your feed
         feedsOptions: {
-          title: 'Serverless Blog',
+          title: 'HeadForCode Blog',
           site_url: pkg.homepage,
         },
         feeds: {
