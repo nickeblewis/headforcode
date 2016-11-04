@@ -3,7 +3,7 @@ import React, { Component, PropTypes } from 'react'
 // import { connect } from 'react-redux'
 import HeadTag from './fragments/HeadTag'
 import Scripts from './fragments/GlobalScripts'
-import PlatformSignupFooter from './fragments/PlatformSignupFooter'
+// import PlatformSignupFooter from './fragments/PlatformSignupFooter'
 // Import global CSS before other components and their styles
 import './index.global.css'
 import styles from './index.css'
@@ -32,7 +32,6 @@ export default class Root extends Component {
         <div className={styles.minHeight}>
           {this.props.children}
         </div>
-        <PlatformSignupFooter />
         <Scripts params={params} query={currentQuery} />
       </div>
     )
