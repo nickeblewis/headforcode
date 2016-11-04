@@ -22,14 +22,6 @@ export default class PartnersPage extends React.Component {
           We also help businesses develop web based apps to leverage their data and other online tools in a cost effective and considered approach, that
           many find quite enlightening.
         </p>
-        <div className={styles.button}>
-          <Button
-            className={styles.button}
-            kind='black'
-            href='/courses/dandavis/'>
-            Get Started
-          </Button>
-        </div>
         <h2 className={styles.header} style={{marginBottom: '20px', marginTop: '50px'}}>
           Why register for HeadForCode?
         </h2>
@@ -72,11 +64,6 @@ export default class PartnersPage extends React.Component {
             <p>Markdown is a lightweight markup language with plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool by the same name.[8] Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
             </p>
           </div>
-        </div>
-        <div className={styles.button}>
-          <Button kind='black' href='https://serverless.com/framework/docs/guide/'>
-          Get Started
-          </Button>
         </div>
         <br />
         <br />
