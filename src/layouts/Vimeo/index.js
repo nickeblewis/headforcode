@@ -5,8 +5,6 @@ import Page from '../Default'
 import FixedSocialButtons from '../../components/FixedSocialButtons'
 // import BetaCTA from '../../fragments/BetaCTA'
 import AuthorCTA from '../../fragments/AuthorCTA'
-import Svg from 'react-svg-inline'
-import gitHubSvg from '../../assets/icons/github.svg'
 import styles from './Post.css'
 import disqus from './disqus-script'
 import ReactPlayer from 'react-player'
@@ -32,7 +30,6 @@ class Vimeo extends Component {
         {body}
       </BodyContainer>
     )
-    const githubURL = 'https://github.com/nickeblewis/headforcode/blog/edit/master/posts' + head.gitLink
     return (
       <Page {...props} className={styles.postPage} >
         <FixedSocialButtons

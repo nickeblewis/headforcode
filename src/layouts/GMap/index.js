@@ -5,8 +5,6 @@ import Page from '../Default'
 import FixedSocialButtons from '../../components/FixedSocialButtons'
 // import BetaCTA from '../../fragments/BetaCTA'
 import AuthorCTA from '../../fragments/AuthorCTA'
-import Svg from 'react-svg-inline'
-import gitHubSvg from '../../assets/icons/github.svg'
 import styles from './Post.css'
 import disqus from './disqus-script'
 import GooglePlacesSuggest from 'react-google-map'
@@ -44,7 +42,6 @@ class GMap extends Component {
         {body}
       </BodyContainer>
     )
-    const githubURL = 'https://github.com/serverless/blog/edit/master/posts' + head.gitLink
     const { search } = this.state
     return (
       <Page {...props} className={styles.postPage} >
