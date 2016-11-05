@@ -5,7 +5,7 @@ import GoogleAd from 'react-google-ad'
 const Advert = (props) => {
   return (
     <Block className={props.className} style={props.style}>
-      <GoogleAd client='ca-pub-7074532723193891' slot='7960527967' format='auto' />
+      <GoogleAd client={props.client} slot={props.slot} format={props.format} />
     </Block>
   )
 }
@@ -13,5 +13,8 @@ const Advert = (props) => {
 Advert.propTypes = {
   className: PropTypes.string,
   style: PropTypes.object,
+  client: PropTypes.string,
+  slot: PropTypes.string,
+  format: PropTypes.string,
 }
 export default Advert

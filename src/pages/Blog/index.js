@@ -71,7 +71,7 @@ export default class BlogPage extends Component {
           ))}
           </div>
           <div className={styles.sidebar}>
-            <Advert style={{marginTop: '20px'}} />
+            <Advert style={{marginTop: '20px'}} client={process.env.GOOGLE_ADSENSE_CLIENT} slot={process.env.GOOGLE_ADSENSE_SLOT} format='auto' />
           </div>
         </div>
       </Page>
