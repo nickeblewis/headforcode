@@ -1,11 +1,12 @@
 ---
+path: content/posts/the-adventure-begins.md
 title: The adventure begins
 layout: Post
-date: 2016-11-02
+date: 2016-11-02T00:00:00.000Z
 author: nickeblewis
 ---
 
-## The gist of it
+## The gist of it is this
 
 HeadForCode is a new thing, we have been quietly chipping away at the idea now for about a year and the website has been something of a background project for awhile. We have also been talking about the idea behind it with various people and with the aim of creating a small team to help develop the concept further. How did it come about? What exactly is HeadForCode?
 
