@@ -1,6 +1,6 @@
 ---
 title: The first post
-layout: Post
+layout: Draft
 date: 2016-11-07
 ---
 
