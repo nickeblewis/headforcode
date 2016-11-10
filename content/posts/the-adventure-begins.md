@@ -71,6 +71,8 @@ I am a "thinker" and if you have found either myself or this website, you probab
 
 ## Sharing our thoughts and ideas
 
+I have just added this line in here :-)
+
 ## Teaching others
 
 ## Providing services
