@@ -1,9 +1,14 @@
 import React, { Component } from 'react'
 import Page from '../../layouts/Default'
 import Terminal from '../../components/Terminal'
+import ContentBlock from '../../components/ContentBlock'
 import Button from '../../components/Button/Button'
 import terminalCommands from './terminalCommands'
+import architectureGif from '../../assets/images/architecture.gif'
+import frameworkGif from '../../assets/images/framework.gif'
+import communityJpg from '../../assets/images/community.png'
 import sparkle from '../../assets/images/home_sparkle.png'
+import { Link } from 'react-router'
 import styles from './Homepage.css'
 import playSvg from '../../assets/icons/play.svg'
 import docsSvg from '../../assets/icons/book2.svg'
@@ -80,7 +85,31 @@ export default class Homepage extends Component {
             </div>
 
           </div>
-
+          <ContentBlock title='Research' image={architectureGif}>
+            <p>
+              Lorem ipsum
+            </p>
+          </ContentBlock>
+          <ContentBlock title='Consultancy' image={frameworkGif}>
+            <p>
+              Lorem ipsum
+            </p>
+            <p>
+              <Link to='/contact'>
+                Contact Us
+              </Link>
+            </p>
+          </ContentBlock>
+          <ContentBlock title='Mentor' image={communityJpg}>
+            <p>
+              Lorem ipsum
+            </p>
+            <p>
+              <a href='/courses' target='_blank'>
+                Learn
+              </a>
+            </p>
+          </ContentBlock>
         </div>
       </Page>
     )
