@@ -1,5 +1,5 @@
 ---
-title: The Hub
+title: The Ref Hub
 menuText: Docs
 layout: Doc
 gitLink: \docs\README.md
@@ -7,7 +7,7 @@ gitLink: \docs\README.md
 
 # Overview of the project and architectural choices
 
-TODO
+{TODO}
 
 ## app
 
