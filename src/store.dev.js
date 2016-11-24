@@ -5,7 +5,7 @@ import * as phenomicReducers from 'phenomic/lib/redux/modules'
 import authMiddleware from './utils/auth/middleware'
 import userReducer from './redux/user'
 
-const extraMiddlewares = [ thunk, authMiddleware ]
+const extraMiddlewares = [ thunk, authMiddleware, createLogger ]
 
 export default function configureStore (preloadedState) {
   return createStore(
@@ -18,7 +18,6 @@ export default function configureStore (preloadedState) {
   )
 }
 
-/*
 function createLogger ({ getState, dispatch }) {
   return (next) =>
     (action) => {
@@ -38,5 +37,5 @@ function createLogger ({ getState, dispatch }) {
       console.log('message', message)
       return returnValue
     }
-}*/
+}
 // createLogger
