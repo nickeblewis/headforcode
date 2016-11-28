@@ -6,10 +6,19 @@
   position: relative;
 }
 .yellow {
-  background-color: $yellow;
+  background-color: #FFD506;
+}
+
+.tan {
+  background-color: #BFA005;
 }
 .white {
   background-color: #fff;
+}
+
+.black {
+  background-color: #000;
+  color: #fff;
 }
 .black {
   background-color: $black2;
@@ -17,13 +26,13 @@
 }
 .inner {
   display: flex;
-  align-items: center;
+  align-items: left;
   padding: 2em 0 2em 0;
   margin: 0 auto;
   width: 60em;
 }
 .content {
-  width: 60%;
+  width: 100%;
   -ms-flex: 2;
   padding-right: 10%;
   p {
