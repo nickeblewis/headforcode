@@ -1,13 +1,7 @@
 import React, { Component } from 'react'
 import Page from '../../layouts/Default'
-import Terminal from '../../components/Terminal'
 import ContentBlock from '../../components/ContentBlock'
 import Button from '../../components/Button/Button'
-import terminalCommands from './terminalCommands'
-import architectureGif from '../../assets/images/architecture.gif'
-import frameworkGif from '../../assets/images/framework.gif'
-import communityJpg from '../../assets/images/community.png'
-import sparkle from '../../assets/images/home_sparkle.png'
 import { Link } from 'react-router'
 import styles from './Homepage.css'
 import playSvg from '../../assets/icons/play.svg'
@@ -45,12 +39,6 @@ export default class Homepage extends Component {
                 <div className={styles.heroLeft + ' fadeIn fadeInShort'}>
                 </div>
                 <div ref='animDiv' className={styles.heroRight + ' zoomxIn zoomInxLong'}>
-                  <div className={styles.tagline}>
-                    Learn the latest tricks of the web trade
-                  </div>
-                  <img ref='sparkle' className={styles.sparkle} src={sparkle} role='presentation' />
-                  <Terminal commands={terminalCommands} />
-
                   <div className={styles.buttons}>
                     <div className={styles.cta}>
                       <Button
@@ -69,12 +57,12 @@ export default class Homepage extends Component {
                     <div className={styles.cta}>
                       <Button
                         kind='black'
-                        href='/courses/javascript'
+                        href='/courses/dandavis'
                       >
                         <span className={styles.ctaInner}>
                           <Svg svg={docsSvg} cleanup />
                           <span className={styles.ctaText}>
-                            READ THE DOCS
+                            Courses
                           </span>
                         </span>
                       </Button>
@@ -85,14 +73,20 @@ export default class Homepage extends Component {
             </div>
 
           </div>
-          <ContentBlock title='Research' image={architectureGif}>
+
+          <ContentBlock title='Researching' image='./marketresearch.jpg' color='yellow'>
             <p>
-              Lorem ipsum
+              We are constantly researching the latest technologies, ideas and trends for web development.
+            </p>
+            <p>
+              <Link to='/research'>
+                Research Articles
+              </Link>
             </p>
           </ContentBlock>
-          <ContentBlock title='Consultancy' image={frameworkGif}>
+          <ContentBlock title='Consulting' color='tan'>
             <p>
-              Lorem ipsum
+              We have a wealth of knowledge that we draw upon when Clients come to us with a project that needs development.
             </p>
             <p>
               <Link to='/contact'>
@@ -100,13 +94,13 @@ export default class Homepage extends Component {
               </Link>
             </p>
           </ContentBlock>
-          <ContentBlock title='Mentor' image={communityJpg}>
+          <ContentBlock title='Mentoring' color='yellow'>
             <p>
-              Lorem ipsum
+              Francis Bacon once said that, "Knowledge is power" and that has never been more relevant than now.
             </p>
             <p>
               <a href='/courses' target='_blank'>
-                Learn
+                Take a look at our latest courses
               </a>
             </p>
           </ContentBlock>
