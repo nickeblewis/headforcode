@@ -12,6 +12,7 @@ These things catch us out all of the time. We spend our time learning as many of
 
 # What we are playing with at the moment
 
+* scaphold.io
 * [https://howtonode.org/hello-node](https://howtonode.org/hello-node)
 * Serverless (AWS Lambda etc)
 * https://www.netlify.com/blog/2016/10/13/serverless-jam---a-serverless-framework-tutorial-part-2/
