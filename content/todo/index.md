@@ -8,6 +8,10 @@ layout: Default
 * Investigate how we use Google Analytics with our phenomic based sites
 * Investigate how we can incorporate advertising
 * Investigate the various plugins we can develop in React for these sites
+* https://marcustisater.github.io/
+    * I may rebuild headforcode using newest Phenomic
+* jeet.gs
+
 
 REFINE
 
