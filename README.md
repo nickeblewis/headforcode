@@ -178,4 +178,7 @@ https://www.figma.com/ now this does look very interesting indeed, it is a colla
 - Can I hook up the auth redux to work? What work is involved? There may be a good example under the showcase page where on guy has built a site with a newsletter signup? Serverless?
 - Start building a React UI library as part of H4C
 - See how I could create GraphQL micro-services for the site?
-- Demonstrate how an image library could be built    
+- Demonstrate how an image library could be built  
+- Fix the navigation "courses" becomes "Reference"
+- The second button down likewise
+- The "framework" page needs to be changed to show a breakdown of what lies under our reference folder and if possible a list of the articles under each??? Or recent articles? Something more dynamic  
