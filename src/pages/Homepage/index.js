@@ -96,7 +96,7 @@ export default class Homepage extends Component {
           </ContentBlock>
           <ContentBlock title='Mentoring' color='white'>
             <p>
-              Francis Bacon once said that, "Knowledge is power" and that has never been more relevant than now. It is important for us to share what we know and hence this website has great ambitions to become a digital reference book thorugh a combination of free resources and some that we charge a fee for.
+              Francis Bacon once said that, "Knowledge is power" and that has never been more relevant than now. It is important for us to share what we know and hence this website has great ambitions to become a digital reference book offering a combination of both free andpremium resources.
             </p>
             <p>
               <a href='/courses' target='_blank'>
