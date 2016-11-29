@@ -10,7 +10,9 @@ We also aim to provide a means of helping you identify frameworks and libraries 
 
 These things catch us out all of the time. We spend our time learning as many of the new tricks as we possibly can. We are busy too but we are focussed on helping you!
 
-# What we are playing with at the moment
+# What we are looking into
+
+## Technologies
 
 * scaphold.io
 * [https://howtonode.org/hello-node](https://howtonode.org/hello-node)
@@ -18,6 +20,12 @@ These things catch us out all of the time. We spend our time learning as many of
 * https://www.netlify.com/blog/2016/10/13/serverless-jam---a-serverless-framework-tutorial-part-2/
 * https://themeforest.net/item/educationpress-complete-education-template/17971530?s_rank=1
 
+## Practices
+
+TFS processes
+
+* https://www.visualstudio.com/en-us/docs/work/guidance/agile-process
+* https://www.visualstudio.com/en-us/docs/work/guidance/agile-process-workflow
 
 # Coding can be complex! 
 One of the reasons I founded H4C was to spend time and a significant amount of it too gaining an understanding of how modern day 
