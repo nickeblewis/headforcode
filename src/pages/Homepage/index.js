@@ -57,12 +57,12 @@ export default class Homepage extends Component {
                     <div className={styles.cta}>
                       <Button
                         kind='black'
-                        href='/courses/dandavis'
+                        href='/reference/dandavis'
                       >
                         <span className={styles.ctaInner}>
                           <Svg svg={docsSvg} cleanup />
                           <span className={styles.ctaText}>
-                            Courses
+                            Reference
                           </span>
                         </span>
                       </Button>
@@ -74,9 +74,9 @@ export default class Homepage extends Component {
 
           </div>
 
-          <ContentBlock title='Researching' image='./marketresearch.jpg' color='yellow'>
+          <ContentBlock title='Researching' image='./marketresearch.jpg' color='white'>
             <p>
-              We are constantly researching the latest technologies, ideas and trends for web development.
+              One aspect of being a developer, is that you, though you may not realise it all of the time, is that you are a Researcher. We spend a lot of time exploring ways of solving problems.
             </p>
             <p>
               <Link to='/research'>
@@ -84,9 +84,9 @@ export default class Homepage extends Component {
               </Link>
             </p>
           </ContentBlock>
-          <ContentBlock title='Consulting' color='tan'>
+          <ContentBlock title='Consulting' color='white'>
             <p>
-              We have a wealth of knowledge that we draw upon when Clients come to us with a project that needs development.
+              We our passionate about understanding our clients, learning about the problems you need solutions for, helping you achieve what you need to.
             </p>
             <p>
               <Link to='/contact'>
@@ -94,9 +94,9 @@ export default class Homepage extends Component {
               </Link>
             </p>
           </ContentBlock>
-          <ContentBlock title='Mentoring' color='yellow'>
+          <ContentBlock title='Mentoring' color='white'>
             <p>
-              Francis Bacon once said that, "Knowledge is power" and that has never been more relevant than now.
+              Francis Bacon once said that, "Knowledge is power" and that has never been more relevant than now. It is important for us to share what we know and hence this website has great ambitions to become a digital reference book thorugh a combination of free resources and some that we charge a fee for.
             </p>
             <p>
               <a href='/courses' target='_blank'>

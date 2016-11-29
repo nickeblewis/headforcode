@@ -1,12 +1,4 @@
 ---
-title: The Hub
-menuText: Docs
-layout: Doc
-gitLink: \docs\README.md
+title: HeadForCode
+layout: Framework
 ---
-
-# Notes
-
-Work in progress....
-
-
