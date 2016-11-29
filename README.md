@@ -172,4 +172,10 @@ etc
 ## Figma
 
 https://www.figma.com/ now this does look very interesting indeed, it is a collaborative design tool for teams. Dan and I could put this to great use given half the chance.
-    
+
+## TODOs
+
+- Can I hook up the auth redux to work? What work is involved? There may be a good example under the showcase page where on guy has built a site with a newsletter signup? Serverless?
+- Start building a React UI library as part of H4C
+- See how I could create GraphQL micro-services for the site?
+- Demonstrate how an image library could be built    
