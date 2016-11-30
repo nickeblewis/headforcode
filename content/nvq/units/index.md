@@ -17,4 +17,20 @@ The following pages highlight the units we have chosen for this NVQ course and o
 * [226: Database Software](unit226)
 * [231: Website Software](unit231)
 
+Hi Dan,
+For future reference the links to the units for your Diploma and Technical Certificate are
+Diploma
+https://qualifications.pearson.com/content/dam/pdf/NVQ-and-competence-based-qualifications/IT%20and%20Telecoms/2010/Specification/9781446913420_NVQ_Comp_L234_PCfITTP_Issue_4.pdf
+Technical Certificate
+https://qualifications.pearson.com/en/qualifications/btec-specialist-and-professional-qualifications/it-telecoms-and-digital-industries/btec-specialist-ict-systems-and-principles-l2.coursematerials.html#filterQuery=category:Pearson-UK:Category%2FSpecification
+For your information the units you are doing are
+Diploma units 101, 202, 205, 208, 212, 222, 223, 226 and 231 and Technical Certificate units 2 and 3.
+Thanks...Vinay
+Vinay K Narang
+IT Work-Based Assessor
+Business Services
+
+[ ] I must take a look at the above documents, we do have printed copies at the office too
+
+
 
