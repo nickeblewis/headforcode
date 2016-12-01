@@ -1,3 +1,4 @@
+/* TODO - Adverts need to appear on more than just the blog post pages */
 import React, { Component, PropTypes } from 'react'
 class GoogleAdsense extends Component {
 
