@@ -33,4 +33,4 @@ My partner in crime is a young apprentice by the name of Dan Davis, he is learni
 
 ## Our next steps
 
-We are building this site using what we call "modern methods" but some of them may not sound that way, as we shall explain in the next article in this blog, keep your eyes peeled.
+We are building this site using what we call "modern methods" but some of them may not sound that way, as we shall explain in the next article in this blog, keep your eyes peeled..
