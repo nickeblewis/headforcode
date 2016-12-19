@@ -34,7 +34,7 @@ a.yellowLink {
 .bg {
   min-height: calc(100vh - $navHeight);
   /*margin-bottom: 50px;*/
-  /*background: url(./cyber-business-header.jpg) fixed no-repeat center center / cover;*/
+  background: url(./cyber-business-header.jpg) fixed no-repeat center center / cover;
 }
 .poweredBy {
   margin-top: 65px;

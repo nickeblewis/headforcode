@@ -7,12 +7,12 @@ import DripIO from './DripIO'
 export default function GlobalScripts (props) {
   return (
     <div>
-      <DripIO />
       <GoogleAnalytics {...props} />
       <div id='footerScripts'
         dangerouslySetInnerHTML={{__html: SegmentIO}}
       />
-      <GoogleAdsense />
+      <GoogleAdsense {...props} />
+      <DripIO {...props} />
     </div>
   )
 }
