@@ -1,7 +1,7 @@
 ---
 path: content/posts/the-adventure-begins.md
 title: The adventure begins
-layout: Draft
+layout: Post
 date: 2016-11-02T00:00:00.000Z
 author: nickeblewis
 thumbnail: 'https://s3-eu-west-1.amazonaws.com/assets.site.headforcode.com/icons/js.png'
