@@ -77,7 +77,7 @@ export default class Homepage extends Component {
 
           </div>
 
-          <ContentBlock title='Researching' image={researchers} color='white'>
+          <ContentBlock title='Research' image={researchers} color='white'>
             <p>
               One aspect of being a developer, is that you, though you may not realise it all of the time, is that you are a Researcher. We spend a lot of time exploring ways of solving problems.
             </p>
