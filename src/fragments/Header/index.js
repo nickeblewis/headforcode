@@ -74,7 +74,6 @@ export default class Header extends Component {
                     <Svg svg={gitHubSvg} cleanup />
                   </a>
                 </li>
-
               </ul>
             </nav>
           </div>
