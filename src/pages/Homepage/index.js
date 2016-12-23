@@ -4,10 +4,12 @@ import ContentBlock from '../../components/ContentBlock'
 import Button from '../../components/Button/Button'
 import { Link } from 'react-router'
 import styles from './Homepage.css'
-import playSvg from '../../assets/icons/play.svg'
 import docsSvg from '../../assets/icons/book2.svg'
 import { addAnimationEvent, removeAnimationEvent } from '../../utils/animations'
 import Svg from 'react-svg-inline'
+import researchers from '../../assets/images/iStock-505021766.jpg'
+import consultants from '../../assets/images/iStock-492097416.jpg'
+import mentors from '../../assets/images/iStock-505642128.jpg'
 
 export default class Homepage extends Component {
   constructor (props, context) {
@@ -46,9 +48,10 @@ export default class Homepage extends Component {
                         href='/framework'
                       >
                         <span className={styles.ctaInner}>
-                          <Svg svg={playSvg} cleanup />
                           <span className={styles.ctaText}>
-                            LEARN MORE
+                            <h2>HeadForCode</h2>
+                            <p>Code helps bring people and solutions together through technology. We have a wealth of experience in developing proven solutions that solve our everyday problems.</p>
+                            <p>We research, consult and mentor developers and clients equally.</p>
                           </span>
                         </span>
                       </Button>
@@ -74,7 +77,7 @@ export default class Homepage extends Component {
 
           </div>
 
-          <ContentBlock title='Researching' image='./marketresearch.jpg' color='white'>
+          <ContentBlock title='Researching' image={researchers} color='white'>
             <p>
               One aspect of being a developer, is that you, though you may not realise it all of the time, is that you are a Researcher. We spend a lot of time exploring ways of solving problems.
             </p>
@@ -84,7 +87,7 @@ export default class Homepage extends Component {
               </Link>
             </p>
           </ContentBlock>
-          <ContentBlock title='Consulting' color='white'>
+          <ContentBlock title='Consulting' image={consultants} color='white'>
             <p>
               We our passionate about understanding our clients, learning about the problems you need solutions for, helping you achieve what you need to.
             </p>
@@ -94,9 +97,9 @@ export default class Homepage extends Component {
               </Link>
             </p>
           </ContentBlock>
-          <ContentBlock title='Mentoring' color='white'>
+          <ContentBlock title='Mentoring' image={mentors} color='white'>
             <p>
-              Francis Bacon once said that, "Knowledge is power" and that has never been more relevant than now. It is important for us to share what we know and hence this website has great ambitions to become a digital reference book offering a combination of both free andpremium resources.
+              Francis Bacon once said that, "Knowledge is power" and that has never been more relevant than now. It is important for us to share what we know and hence this website has great ambitions to become a digital reference book offering a combination of both free and premium resources.
             </p>
             <p>
               <a href='/courses' target='_blank'>

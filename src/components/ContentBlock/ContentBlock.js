@@ -11,12 +11,16 @@ const propTypes = {
 export default class ContentBlock extends Component {
 
   render () {
-    const { color, style, title } = this.props
+    const { color, style, title, image } = this.props
+    const imageSrc = image || 'http://www.fillmurray.com/200/200'
     const colorStyle = styles[color] || ''
     return (
       <div className={'contentBlocks'}>
         <section style={style} className={styles.wrapper + ' ' + colorStyle}>
           <div className={styles.inner}>
+            <span className={styles.image}>
+              <img src={imageSrc} alt='' draggable='false' />
+            </span>
             <div className={styles.content}>
               <h2 className={styles.title}>{title}</h2>
               {this.props.children}
