@@ -32,7 +32,7 @@ class Post extends Component {
     return (
       <Page {...props} className={styles.postPage} >
         <FixedSocialButtons
-          url={`https://headforcode.com${this.props.__url}`}
+          url={`http://www.headforcode.com${this.props.__url}`}
           title={head.title}
         />
         <div className={styles.postWrapper}>
