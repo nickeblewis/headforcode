@@ -79,7 +79,7 @@ export default class Homepage extends Component {
 
           <ContentBlock title='Research' image={researchers} color='white'>
             <p>
-              One aspect of being a developer, is that you, though you may not realise it all of the time, is that you are a Researcher. We spend a lot of time exploring ways of solving problems.
+              One aspect of being a developer, is that you, though you may not realise it, are a Researcher. We spend a lot of our time exploring ways of solving problems. So much so, that at times one thing leads to another and keeping track of where you are in the grand scheme of things is hard. We want to help solve this problem.
             </p>
             <p>
               <Link to='/research'>
@@ -89,7 +89,7 @@ export default class Homepage extends Component {
           </ContentBlock>
           <ContentBlock title='Consulting' image={consultants} color='white'>
             <p>
-              We our passionate about understanding our clients, learning about the problems you need solutions for, helping you achieve what you need to.
+              We our passionate about understanding our clients, learning about the problems you need solutions for, helping you achieve what you need to get done. This is where we realise the time spent researching ways of doing things, pays off.
             </p>
             <p>
               <Link to='/contact'>
@@ -99,7 +99,7 @@ export default class Homepage extends Component {
           </ContentBlock>
           <ContentBlock title='Mentoring' image={mentors} color='white'>
             <p>
-              Francis Bacon once said that, "Knowledge is power" and that has never been more relevant than now. It is important for us to share what we know and hence this website has great ambitions to become a digital reference book offering a combination of both free and premium resources.
+              We are working more frequently with other Developers, ranging from apprentices, through to highly experienced professionals. Most of these people face the same daily challenges as we do. Mentoring is a great way of helping people learn based on our own knowledge and experiences. In return we often learn quite a lot from the people we teach.
             </p>
             <p>
               <a href='/courses' target='_blank'>
