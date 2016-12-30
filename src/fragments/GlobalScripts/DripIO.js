@@ -1,13 +1,21 @@
-/* TODO - The number 07747792400 below is just temporary!! */
 import React, { Component, PropTypes } from 'react'
-/* import { isClientSide } from './utils'*/
+import { isClientSide } from '../../utils'
+
+// DRIP plugin
+if (isClientSide()) {
+  var _dcq = _dcq || []
+  var _dcs = _dcs || {}
+  _dcs.account = '9410191'
+  window._dcq = _dcq
+  window._dcs = _dcs
+}
 
 class DripIO extends Component {
 
   render () {
     return (
       <div>
-        <script async src='//tag.getdrip.com/07747792440.js'></script>
+        <script async src='//tag.getdrip.com/9410191.js'></script>
       </div>
     )
   }
