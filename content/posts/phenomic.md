@@ -1,7 +1,7 @@
 ---
 path: content/posts/phenomic-rocks.md
 title: Phenomic rocks!
-layout: __Post
+layout: Post
 date: 2016-12-31
 author: nickeblewis
 thumbnail: 'https://s3-eu-west-1.amazonaws.com/assets.site.headforcode.com/icons/js.png'
