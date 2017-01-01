@@ -10,3 +10,5 @@ thumbnail: 'https://s3-eu-west-1.amazonaws.com/assets.site.headforcode.com/icons
 TODO
 
 http://tachyons.io/
+
+I would like to explore how we can use Tachyons with react components to build nice easy UIs for apps and sites, see where it leads us
