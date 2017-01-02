@@ -4,7 +4,12 @@ import AutoForm from 'react-auto-form'
 const Form = (props) => {
   const {onSubmit, onChange, children} = props
   return (
-    <AutoForm onChange={onChange} onSubmit={onSubmit}>
+    <AutoForm
+      onChange={onChange}
+      onSubmit={onSubmit}
+      name='contact'
+      action='thank-you'
+      data-netlify='true'>
       {children}
     </AutoForm>
   )

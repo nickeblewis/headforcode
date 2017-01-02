@@ -12,7 +12,7 @@ export default class Contact extends React.Component {
         <h2>Contact Us</h2>
         <p>We would love to hear from you, so please drop us a line using the form below. We shall get back to you as soon as we possibly can.
         </p>
-        <Form name='contact' action='thank-you' netlify>
+        <Form>
           <TextInput
             name='fullname'
             placeholder='Enter your Full Name' />
