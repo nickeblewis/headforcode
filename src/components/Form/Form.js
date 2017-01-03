@@ -1,6 +1,7 @@
 import React, {PropTypes} from 'react'
 import AutoForm from 'react-auto-form'
 
+// TODO - the name and action should be passed in as props, not hard-coded
 const Form = (props) => {
   const {onSubmit, onChange, children} = props
   return (
