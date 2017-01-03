@@ -35,7 +35,7 @@ How do we handle search? At the time of writing this article, HeadForCode.com do
 
 We can use APIs for making our site dynamic and here are a few thoughts that we have on that:
 
-* Content could be delivered using a service like Prismic, Contentful and others
+* Content could be delivered using a service like [Prismic](https://prismic.io/), [Contentful](https://www.contentful.com/) and others
 * We can sell things using services like [Snipcart](https://snipcart.com)
 * In fact many other API based services will work
 
