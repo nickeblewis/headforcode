@@ -1,6 +1,7 @@
 import React from 'react'
 import Page from '../../layouts/Default'
 import Form from '../../components/Form'
+
 import TextInput from '../../components/TextInput'
 /* import styles from './Contact.css'*/
 
@@ -19,6 +20,9 @@ export default class Contact extends React.Component {
           <TextInput validation={'isEmail'}
             name='email'
             placeholder='Enter your email' />
+          <textarea name='body' rows='20' cols='100'>
+
+          </textarea>
           <button type='submit' name='Send'>
             Send
           </button>
