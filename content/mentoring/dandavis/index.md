@@ -29,5 +29,7 @@ We had started following a weekly schedule and then kind of got lost in the mix 
 * tutlio
 * screencasts
 
+Don't worry, I will share the links with you as we work through this.
+
 
 
