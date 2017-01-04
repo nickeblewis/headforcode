@@ -59,12 +59,12 @@ export default class Homepage extends Component {
                     <div className={styles.cta}>
                       <Button
                         kind='black'
-                        href='/reference/dandavis'
+                        href='/mentoring/dandavis'
                       >
                         <span className={styles.ctaInner}>
                           <Svg svg={docsSvg} cleanup />
                           <span className={styles.ctaText}>
-                            Reference
+                            Your Mentor
                           </span>
                         </span>
                       </Button>
