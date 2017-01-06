@@ -1,4 +1,0 @@
----
-title: HeadForCode
-layout: Framework
----
