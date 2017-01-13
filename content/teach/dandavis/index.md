@@ -13,5 +13,20 @@ I am basing this series of exercises on [Learn Apollo](https://www.learnapollo.c
 
 # Lets make a start
 
-I have put together some 
+You can grab the latest version of the HeadForCode project from GitHub and to so, follow the instructions below:
+
+* Open the Git Bash application from your start menu in Windows
+* You may have in the past created a code folder on your PC's main hard-drive, so for example mine is C:\code
+
+``` bash
+$ cd ~/code
+```
+
+NOTE: It can get confusing as Windows uses backslashes in it's paths whereas Linux is the opposite!
+
+* Clone the Git repository to this folder
+
+``` bash
+$ git clone https://github.com/nickeblewis/headforcode.git
+```
 
