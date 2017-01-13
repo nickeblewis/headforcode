@@ -6,6 +6,7 @@ gitLink: \docs\README.md
 ---
 
 **VIDEO WILL APPEAR HERE**
+
 **You can also read the article below, the video was based on it**
 # So what next?
 
@@ -54,6 +55,16 @@ $ code .
 * Open that folder up and you will see that there are further sub-folders named "walks-react-master" and beneath that folder, a whole load more starting with the name "exercise"
 * Lets take a peek in the one called "exercise-01-solution", click on it to expand it
 * What you see here is a small application that we will need to build and run to see what it does
+* In Visual Studio Code you can open a Terminal console by pressing the CTRL+' keys simultaneously
+* You should now see a terminal window open, it's root directory being set to the main folder in which this project resides, yours will differ slightly from what I see but that's fine
+* We need to go down a few folders, so type in the following
+
+``` bash
+$ cd src/examples/walks-react-master/exercise-01
+$ npm install
+$ npm start
+
+NOTE
 
 
 
