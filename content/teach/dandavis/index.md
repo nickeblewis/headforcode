@@ -5,6 +5,8 @@ layout: Doc
 gitLink: \docs\README.md
 ---
 
+**VIDEO WILL APPEAR HERE**
+
 # So what next?
 
 We have been talking about building an app that provides people with some self-guided walks and at the same time will enable you to show off your new knowledge to Vinay. I thought it would be good to put together a series of articles on how to build up the basics and we can then build upon those and get as advanced as we wish... the app must be easy for people to use, funky and fun at the same time. We can later use these skills to convert more of the Farnborough Guide site to this way of working. 
@@ -15,7 +17,7 @@ I am basing this series of exercises on [Learn Apollo](https://www.learnapollo.c
 
 # Lets make a start
 
-You can grab the latest version of the HeadForCode project from GitHub and to so, follow the instructions below:
+You can grab the latest version of the HeadForCode project from GitHub and to do so, please follow the instructions below:
 
 * Open the Git Bash application from your start menu in Windows
 * You may have in the past created a code folder on your PC's main hard-drive, so for example mine is C:\code
@@ -31,4 +33,8 @@ NOTE: It can get confusing as Windows uses backslashes in it's paths whereas Lin
 ``` bash
 $ git clone https://github.com/nickeblewis/headforcode.git
 ```
+* You will see it download the files and set things up for you and after a few minutes, you will be returned to the command prompt
+
+# What 
+
 
