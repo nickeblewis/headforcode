@@ -50,6 +50,7 @@ class Doc extends Component {
   renderParentList () {
     const { __url } = this.props
     const trimmedURL = __url.replace(/\/$/, '')
+    console.log(trimmedURL)
     const urlArray = trimmedURL.split('/')
     urlArray.pop()
     const correctURL = urlArray.join('/')

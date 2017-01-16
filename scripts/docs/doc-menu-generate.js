@@ -1,7 +1,7 @@
 var config = require('./config')
 var dirTree = require('directory-tree')
 // var breakWord = 'serverless'
-var filteredTree = dirTree(config.newDocsPath, ['.md'])
+var filteredTree = dirTree(config.oldDocsPath, ['.md'])
 var breakWord = 'content'
 var path = require('path')
 var fs = require('fs-extra')
@@ -13,10 +13,9 @@ var folderLookup = {}
 var folderList = fs.readdirSync(config.oldDocsPath).filter(function (x) {
   return x !== '.DS_Store' && !x.match(/\.md/)
 }).map(function (folder, i) {
+  var order = 1;
+// console.log(order);
   
-  var order = folder.match(/([0-9]{2})/g)
-
-  console.log(folder);
   var orderNumber = order.length
   if (order && order.length) {
     orderNumber = parseInt(order[order.length - 1])
@@ -39,7 +38,7 @@ function getPageData (filePath) {
     var yamlInfo = matter(content).data
     // get order of original file
     var originalLink = yamlInfo.gitLink
-    var order = originalLink.match(/([0-9]{2})/g)
+    var order = 1;
     var orderNumber = folderList.length + 1 // set none order md to last
     if (order && order.length) {
       orderNumber = parseInt(order[order.length - 1])
@@ -65,13 +64,13 @@ function generateSubPaths (arr) {
     if (path.basename(arr[i].path, '.md') === 'index') {
       indexPage.push({
         path: pathName,
-        title: capitalizeFirstLetter(pageInfo.title.replace(/-/g, ' ')),
+        title: pageInfo.title,
         order: pageInfo.order,
       })
     } else {
       var item = {
         path: pathName,
-        title: capitalizeFirstLetter(pageInfo.title.replace(/-/g, ' ')),
+        title: pageInfo.title,
         order: pageInfo.order,
       }
       pages.push(item)
@@ -145,6 +144,8 @@ function writeJSONMenuToDirectory (dest, contents) {
 
 module.exports = function generateDocMenu () {
   // kick off menu creation. sync process
+  
+  
   traverse(filteredTree, 1)
   // then write to file
   writeJSONMenuToDirectory(config.docsMenuPath, menuObject)

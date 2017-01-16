@@ -14,8 +14,10 @@ module.exports = function updateFileContents (filePath, callBack) {
     var replace = fixYamlContent(content, filename)
     // parse yaml frontmatter for title
     var item = matter(replace).data
-    item.gitLink = filename.split('framework')[1]
+    item.gitLink = "README.md";
+    console.log("item.gitLink filename", filename);
     var updatedFrontmatter = jsonToYaml.stringify(item)
+    console.log("Updated FM ", updatedFrontmatter);
     // regex patterns to match frontmatter
     // ---(\s*?.*?)*?---
     // ^(---)(\s*?.*?)*?(---)
