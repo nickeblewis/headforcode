@@ -1,7 +1,7 @@
 ---
 title: Units
 layout: Doc
-menuTitle: Your chosen units
+menuName: Your chosen units
 ---
 
 # Units
