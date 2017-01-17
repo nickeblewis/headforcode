@@ -1,6 +1,6 @@
 ---
 title: Introduction to IT Systems Development
-layout: Default
+layout: Doc
 ---
 
 # Unit 208 : Introduction to IT Systems Development

@@ -1,6 +1,6 @@
 ---
 title: Develop Own Effectiveness and Professionalism
-layout: Default
+layout: Doc
 ---
 
 

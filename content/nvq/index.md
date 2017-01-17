@@ -1,6 +1,6 @@
 ---
 title: NVQ
-layout: Default
+layout: Doc
 ---
 
 # FYI: Dan & Vinay

@@ -1,6 +1,6 @@
 ---
 title: Website Software
-layout: Default
+layout: Doc
 ---
 
 # Unit 231: Website Software

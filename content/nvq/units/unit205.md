@@ -1,6 +1,6 @@
 ---
 title: Data Modelling
-layout: Default
+layout: Doc
 ---
 
 # Unit 205 : Data Modelling

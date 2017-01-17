@@ -1,6 +1,6 @@
 ---
 title: Data Modelling
-layout: Default
+layout: Doc
 ---
 
 # 1. Know the basic concepts of logical data modelling (23rd December)

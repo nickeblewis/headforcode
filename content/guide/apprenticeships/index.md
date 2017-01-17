@@ -1,6 +1,6 @@
 ---
 title: FCOT - IT Prof Level 2
-layout: Default
+layout: Doc
 ---
 
 TODO - this lot has all changed!

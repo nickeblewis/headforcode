@@ -1,6 +1,6 @@
 ---
 title: Health and Safety in ICT
-layout: Default
+layout: Doc
 ---
 
 # Unit 101: Health and Safety in ICT

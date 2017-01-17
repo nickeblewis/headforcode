@@ -1,6 +1,6 @@
 ---
 title: Creating an Object-Oriented Computer Program
-layout: Default
+layout: Doc
 ---
 
 # Unit 212 : Creating an Object-Oriented Computer Program

@@ -1,6 +1,6 @@
 ---
 title: Technical Fault Diagnosis
-layout: Default
+layout: Doc
 ---
 
 TODO

@@ -1,6 +1,6 @@
 ---
 title: Customer Care in ICT
-layout: Default
+layout: Doc
 ---
 
 TODO

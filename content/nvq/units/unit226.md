@@ -1,6 +1,6 @@
 ---
 title: Database Software
-layout: Default
+layout: Doc
 ---
 
 # Unit 226 - Database Software
