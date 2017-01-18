@@ -5,6 +5,13 @@ layout: Doc
 
 # Unit 226 - Database Software
 
-1.1 - Identify the components of database design
+## 1.1 - Identify the components of database design
 
-1.4 Describe ways to maintain datbase integrity
+* Tables - columns/fields and rows of data values
+* Schemas - defining the different types of field such as string, integers etc
+* Relationships - keys, primary keys and foreign keys
+* Indexes (indices)
+
+## 1.4 - Describe ways to maintain database integrity
+
+__database integrity__ is the concept behind data consistency, that you adopt a set of rules for how you design and build your database. In essence, your database should be a genuine representation of the World that it represents.
