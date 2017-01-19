@@ -45,7 +45,3 @@ Removes this tool and copies build dependencies, configuration files and scripts
 ### Final notes
 
 It is worth noting that [Create React App](https://github.com/facebookincubator/create-react-app) doesn't setup any form of back-end logic or databases for you; it just creates a frontend build pipeline, so you can use it with any backend you want. It uses [webpack](https://webpack.js.org/), [Babel](http://babeljs.io/) and [ESLint](http://eslint.org/) under the hood, but configures them for you.
-
-You may also be interested in:
-
-* [Workshops](/workshop/getstartedwithreact)
