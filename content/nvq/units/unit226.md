@@ -5,6 +5,8 @@ layout: Doc
 
 # Unit 226 - Database Software
 
+Dan - I hope this gives you some clues on these two topics... I will dig around for some more information for you asap.
+
 ## 1.1 - Identify the components of database design
 
 * Tables - columns/fields and rows of data values
