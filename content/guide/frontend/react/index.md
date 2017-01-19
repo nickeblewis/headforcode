@@ -20,6 +20,10 @@ It is as simple as that!
 
 _Note: It can sometimes take a little while when running the create-react-app command first time round_
 
+Hopefully that will all be up and running and you should see something that looks like this when you browse to [localhost:3000](http://localhost:3000):
+
+![alt text](/assets/welcome-to-react.png "Title")
+
 ### Commands available
 
 __yarnpkg start__
