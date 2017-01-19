@@ -17,3 +17,7 @@ Dan - I hope this gives you some clues on these two topics... I will dig around 
 ## 1.4 - Describe ways to maintain database integrity
 
 __database integrity__ is the concept behind data consistency, that you adopt a set of rules for how you design and build your database. In essence, your database should be a genuine representation of the World that it represents.
+
+## Some useful sites I have found
+
+[http://searchsqlserver.techtarget.com/feature/Enforcing-data-integrity-in-a-SQL-Server-database](http://searchsqlserver.techtarget.com/feature/Enforcing-data-integrity-in-a-SQL-Server-database)
