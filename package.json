@@ -20,7 +20,7 @@
     "refreshDocs": "node scripts/docs/pullLatestDocs.js",
     "prerefreshBlog": "rimraf node_modules/serverless-blog && rimraf node_modules/serverless-blog",
     "refreshBlog": "node scripts/blog/pullLatestBlog.js",
-    "sync": "node scripts/blog/entry.js",
+    "sync": "node scripts/docs/entry.js",
     "prebuild": "npm run sync",
     "build": "phenomic build",
     "buildprod": "npm run refresh && npm run sync && phenomic build",
