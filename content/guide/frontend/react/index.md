@@ -82,3 +82,6 @@ Now save the file once you have made a similiar edit and you will notice that, y
 
 We will explore this more in future pages here on HeadForCode.
 
+### Now let's get to know React better
+
+This exercise should have given you a quick insight into how you can create a React app from scratch and we shall look next at expanding it by adding further components to the project and structuring the app properly.
