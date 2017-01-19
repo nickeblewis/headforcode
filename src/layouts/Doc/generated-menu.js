@@ -251,6 +251,11 @@ module.exports = {
         'order': 0
       },
       {
+        'path': '/guide/frontend',
+        'title': 'frontend',
+        'order': 0
+      },
+      {
         'path': '/guide/frp',
         'title': 'frp',
         'order': 0
@@ -567,6 +572,75 @@ module.exports = {
     ],
     'children': []
   },
+  '/guide/frontend': {
+    'index': [
+      {
+        'path': '/guide/frontend/index',
+        'title': 'Front Eed',
+        'order': 16
+      }
+    ],
+    'children': [
+      {
+        'path': '/guide/frontend/react',
+        'title': 'react',
+        'order': 0
+      }
+    ]
+  },
+  '/guide/frontend/react': {
+    'index': [
+      {
+        'path': '/guide/frontend/react/index',
+        'title': 'ReactJS',
+        'order': 16
+      }
+    ],
+    'children': [
+      {
+        'path': '/guide/frontend/react/headforcode',
+        'title': 'headforcode',
+        'order': 0
+      }
+    ]
+  },
+  '/guide/frontend/react/headforcode': {
+    'index': [
+      {
+        'path': '/guide/frontend/react/headforcode/index',
+        'title': 'How it works for HeadForCode',
+        'order': 16
+      }
+    ],
+    'children': [
+      {
+        'path': '/guide/frontend/react/headforcode/components',
+        'title': 'components',
+        'order': 0
+      }
+    ]
+  },
+  '/guide/frontend/react/headforcode/components': {
+    'index': [
+      {
+        'path': '/guide/frontend/react/headforcode/components/index',
+        'title': 'ReactJS components',
+        'order': 16
+      }
+    ],
+    'children': [
+      {
+        'path': '/guide/frontend/react/headforcode/components/location',
+        'title': 'Location',
+        'order': 16
+      },
+      {
+        'path': '/guide/frontend/react/headforcode/components/vimeo',
+        'title': 'Vimeo Test Harness',
+        'order': 16
+      }
+    ]
+  },
   '/guide/frp': {
     'index': [
       {
@@ -675,28 +749,7 @@ module.exports = {
   },
   '/guide/react': {
     'index': [],
-    'children': [
-      {
-        'path': '/guide/react/components',
-        'title': 'components',
-        'order': 0
-      }
-    ]
-  },
-  '/guide/react/components': {
-    'index': [],
-    'children': [
-      {
-        'path': '/guide/react/components/location',
-        'title': 'Location',
-        'order': 16
-      },
-      {
-        'path': '/guide/react/components/vimeo',
-        'title': 'Vimeo Test Harness',
-        'order': 16
-      }
-    ]
+    'children': []
   },
   '/guide/redux': {
     'index': [
