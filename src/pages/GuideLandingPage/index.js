@@ -30,8 +30,8 @@ export default class GuideLandingPage extends React.Component {
             </p>
           </div>
           <div className={styles.component}>
-            <Link to='/guide/api'>
-              <h3>API</h3>
+            <Link to='/guide/data'>
+              <h3>Data &amp; APIs</h3>
             </Link>
             <p>We focus on how you can use a variety of microservices and their APIs to build the applications of today and the future
             </p>

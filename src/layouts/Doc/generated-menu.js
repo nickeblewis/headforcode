@@ -19,11 +19,6 @@ module.exports = {
         'order': 0
       },
       {
-        'path': '/blog',
-        'title': 'blog',
-        'order': 0
-      },
-      {
         'path': '/business',
         'title': 'business',
         'order': 0
@@ -39,11 +34,6 @@ module.exports = {
         'order': 0
       },
       {
-        'path': '/courses',
-        'title': 'courses',
-        'order': 0
-      },
-      {
         'path': '/danslab',
         'title': 'danslab',
         'order': 0
@@ -54,13 +44,18 @@ module.exports = {
         'order': 0
       },
       {
+        'path': '/blog',
+        'title': 'blog',
+        'order': 0
+      },
+      {
         'path': '/assets',
         'title': 'assets',
         'order': 0
       },
       {
-        'path': '/services',
-        'title': 'services',
+        'path': '/mentoring',
+        'title': 'mentoring',
         'order': 0
       },
       {
@@ -84,16 +79,21 @@ module.exports = {
         'order': 0
       },
       {
+        'path': '/services',
+        'title': 'services',
+        'order': 0
+      },
+      {
         'path': '/README',
         'title': 'title',
         'order': 16
       },
       {
-        'path': '/loading',
+        'path': '/404',
         'order': 16
       },
       {
-        'path': '/404',
+        'path': '/loading',
         'order': 16
       }
     ]
@@ -168,29 +168,6 @@ module.exports = {
       }
     ]
   },
-  '/courses': {
-    'index': [],
-    'children': [
-      {
-        'path': '/courses/javascript',
-        'title': 'javascript',
-        'order': 0
-      },
-      {
-        'path': '/courses/web',
-        'title': 'web',
-        'order': 0
-      }
-    ]
-  },
-  '/courses/javascript': {
-    'index': [],
-    'children': []
-  },
-  '/courses/web': {
-    'index': [],
-    'children': []
-  },
   '/danslab': {
     'index': [
       {
@@ -209,6 +186,16 @@ module.exports = {
         'order': 16
       }
     ],
+    'children': [
+      {
+        'path': '/framework/docs',
+        'title': 'docs',
+        'order': 0
+      }
+    ]
+  },
+  '/framework/docs': {
+    'index': [],
     'children': []
   },
   '/guide': {
@@ -221,8 +208,8 @@ module.exports = {
     ],
     'children': [
       {
-        'path': '/guide/net',
-        'title': 'net',
+        'path': '/guide/mobile',
+        'title': 'mobile',
         'order': 0
       },
       {
@@ -238,6 +225,11 @@ module.exports = {
       {
         'path': '/guide/dandavis',
         'title': 'dandavis',
+        'order': 0
+      },
+      {
+        'path': '/guide/data',
+        'title': 'data',
         'order': 0
       },
       {
@@ -278,6 +270,11 @@ module.exports = {
       {
         'path': '/guide/apprenticeships',
         'title': 'apprenticeships',
+        'order': 0
+      },
+      {
+        'path': '/guide/net',
+        'title': 'net',
         'order': 0
       },
       {
@@ -552,6 +549,16 @@ module.exports = {
     ],
     'children': []
   },
+  '/guide/data': {
+    'index': [
+      {
+        'path': '/guide/data/index',
+        'title': 'Data and APIs',
+        'order': 16
+      }
+    ],
+    'children': []
+  },
   '/guide/es6': {
     'index': [
       {
@@ -691,6 +698,16 @@ module.exports = {
     ],
     'children': []
   },
+  '/guide/mobile': {
+    'index': [
+      {
+        'path': '/guide/mobile/index',
+        'title': 'Mobile',
+        'order': 16
+      }
+    ],
+    'children': []
+  },
   '/guide/net': {
     'index': [],
     'children': [
@@ -799,6 +816,75 @@ module.exports = {
         'order': 16
       }
     ],
+    'children': []
+  },
+  '/mentoring': {
+    'index': [],
+    'children': [
+      {
+        'path': '/mentoring/redux',
+        'title': 'redux',
+        'order': 0
+      }
+    ]
+  },
+  '/mentoring/redux': {
+    'index': [],
+    'children': [
+      {
+        'path': '/mentoring/redux/actions',
+        'title': 'actions',
+        'order': 0
+      },
+      {
+        'path': '/mentoring/redux/constants',
+        'title': 'constants',
+        'order': 0
+      },
+      {
+        'path': '/mentoring/redux/forms',
+        'title': 'forms',
+        'order': 0
+      },
+      {
+        'path': '/mentoring/redux/reducers',
+        'title': 'reducers',
+        'order': 0
+      },
+      {
+        'path': '/mentoring/redux/sagas',
+        'title': 'sagas',
+        'order': 0
+      },
+      {
+        'path': '/mentoring/redux/selectors',
+        'title': 'selectors',
+        'order': 0
+      }
+    ]
+  },
+  '/mentoring/redux/actions': {
+    'index': [],
+    'children': []
+  },
+  '/mentoring/redux/constants': {
+    'index': [],
+    'children': []
+  },
+  '/mentoring/redux/forms': {
+    'index': [],
+    'children': []
+  },
+  '/mentoring/redux/reducers': {
+    'index': [],
+    'children': []
+  },
+  '/mentoring/redux/sagas': {
+    'index': [],
+    'children': []
+  },
+  '/mentoring/redux/selectors': {
+    'index': [],
     'children': []
   },
   '/nvq': {
