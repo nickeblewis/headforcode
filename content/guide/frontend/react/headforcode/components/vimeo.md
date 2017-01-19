@@ -11,4 +11,4 @@ We pass the URL in as part of the FrontMatter attributes and this is displayed i
 
 TODO
 
-* Would like to include the sidenav as we do with the Docs layout type
+* Would like to include the sidenav as we do with the Docs layout type 
