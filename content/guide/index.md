@@ -1,7 +1,7 @@
 ---
 title: The Hub
 menuText: Docs
-layout: Doc
+layout: GuideLandingPage
 gitLink: \docs\README.md
 ---
 
