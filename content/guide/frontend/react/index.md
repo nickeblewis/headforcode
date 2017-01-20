@@ -12,6 +12,7 @@ So here it goes, 4 lines in your terminal to get going!
 ## Yarn or NPM?
 
 If you have node installed, then you should already have NPM but in the example below we are using [Yarn and you will need to install it first](https://yarnpkg.com/en/docs/install) via their website.
+
 ``` bash
 npm install -g create-react-app
 create-react-app hello-world
