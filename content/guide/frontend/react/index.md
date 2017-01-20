@@ -17,7 +17,7 @@ If you have node installed, then you should already have NPM but in the example 
 npm install -g create-react-app
 create-react-app hello-world
 cd hello-world
-yarnpkg start
+yarnpkg start or npm start
 ```
 
 It is as simple as that!
