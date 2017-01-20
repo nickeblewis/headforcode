@@ -92,5 +92,5 @@ This exercise should have given you a quick insight into how you can create a Re
 
 The next steps will be to move on to the following topics and exercises:
 
-* Run through the basic code and learn about how it is structured and why
-* Hooking up a GraphQL data source using Apollo and GraphCool
+* How does the basic app work?
+* Connecting to a GraphQL data service
