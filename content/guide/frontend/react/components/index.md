@@ -1,5 +1,5 @@
 ---
-title: ReactJS components
+title: Custom components
 layout: Doc
 ---
 
