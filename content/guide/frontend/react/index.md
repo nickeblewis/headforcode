@@ -26,7 +26,7 @@ _Note: It can sometimes take a little while when running the create-react-app co
 
 Hopefully that will all be up and running and you should see something that looks like this when you browse to [localhost:3000](http://localhost:3000):
 
-![alt text](/assets/welcome-to-react.png "Title")
+![alt text](/assets/welcome-to-react.png "Welcome to React")
 
 ### Commands available
 
