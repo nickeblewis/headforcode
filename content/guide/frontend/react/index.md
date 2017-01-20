@@ -89,3 +89,8 @@ We will explore this more in future pages here on HeadForCode.
 ### Now let's get to know React better
 
 This exercise should have given you a quick insight into how you can create a React app from scratch and we shall look next at expanding it by adding further components to the project and structuring the app properly.
+
+The next steps will be to move on to the following topics and exercises:
+
+* Run through the basic code and learn about how it is structured and why
+* Hooking up a GraphQL data source using Apollo and GraphCool
