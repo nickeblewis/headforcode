@@ -1,5 +1,6 @@
 ---
 title: How does the basic app work?
+menuTitle: How does it work?
 layout: Doc
 order: 1
 ---
