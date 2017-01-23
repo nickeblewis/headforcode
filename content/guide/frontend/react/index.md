@@ -92,5 +92,5 @@ This exercise should have given you a quick insight into how you can create a Re
 
 The next steps will be to move on to the following topics and exercises:
 
-* How does the basic app work?
+* [How does the basic app work?](how)
 * Connecting to a GraphQL data service
