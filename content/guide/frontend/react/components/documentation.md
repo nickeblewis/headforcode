@@ -120,6 +120,18 @@ Now we can __parse__ any component and get its documentation back. But to usee t
 
 So lets import a component as a __string__ uing the [raw-loader](https://github.com/webpack/raw-loader).
 
+## Exploring the toolbox
+
+``` bash
+git clone https://github.com/reactjs/react-docgen.git
+```
+
+I then changed directory into the project and into the examples folder
+
+``` bash
+cd react-docgen/example
+```
+
 
 
 
