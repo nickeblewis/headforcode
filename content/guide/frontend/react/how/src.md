@@ -1,5 +1,5 @@
 ---
-title: src folder
+title: Look inside the src folder
 layout: Doc
 ---
 
