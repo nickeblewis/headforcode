@@ -3,7 +3,7 @@ title: Pricing
 layout: Default
 ---
 
-# Websites
+# Websites/Apps
 
 ## What do we charge upfront?
 
