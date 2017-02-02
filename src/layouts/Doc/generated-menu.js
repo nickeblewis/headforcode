@@ -124,6 +124,11 @@ module.exports = {
         'path': '\\business\\plan',
         'title': 'plan',
         'order': 0
+      },
+      {
+        'path': '\\business\\bni',
+        'title': 'BNI Meeting 9th February',
+        'order': 17
       }
     ]
   },
@@ -585,7 +590,13 @@ module.exports = {
         'order': 17
       }
     ],
-    'children': []
+    'children': [
+      {
+        'path': '\\guide\\es6\\esdoc',
+        'title': 'ESDoc for documenting applications',
+        'order': 17
+      }
+    ]
   },
   '\\guide\\fetch': {
     'index': [
@@ -623,45 +634,79 @@ module.exports = {
     ],
     'children': [
       {
-        'path': '\\guide\\frontend\\react\\headforcode',
-        'title': 'headforcode',
+        'path': '\\guide\\frontend\\react\\components',
+        'title': 'components',
         'order': 0
-      }
-    ]
-  },
-  '\\guide\\frontend\\react\\headforcode': {
-    'index': [
+      },
       {
-        'path': '\\guide\\frontend\\react\\headforcode\\index',
+        'path': '\\guide\\frontend\\react\\how',
+        'title': 'how',
+        'order': 0
+      },
+      {
+        'path': '\\guide\\frontend\\react\\tools',
+        'title': 'tools',
+        'order': 0
+      },
+      {
+        'path': '\\guide\\frontend\\react\\graphql',
+        'title': 'Connecting to a GraphQL data service',
+        'order': 17
+      },
+      {
+        'path': '\\guide\\frontend\\react\\headforcode',
         'title': 'How it works for HeadForCode',
         'order': 17
       }
-    ],
-    'children': [
-      {
-        'path': '\\guide\\frontend\\react\\headforcode\\components',
-        'title': 'components',
-        'order': 0
-      }
     ]
   },
-  '\\guide\\frontend\\react\\headforcode\\components': {
-    'index': [
-      {
-        'path': '\\guide\\frontend\\react\\headforcode\\components\\index',
-        'title': 'ReactJS components',
-        'order': 17
-      }
-    ],
+  '\\guide\\frontend\\react\\components': {
+    'index': [],
     'children': [
       {
-        'path': '\\guide\\frontend\\react\\headforcode\\components\\location',
+        'path': '\\guide\\frontend\\react\\components\\documentation',
+        'title': 'Documenting your components',
+        'order': 17
+      },
+      {
+        'path': '\\guide\\frontend\\react\\components\\location',
         'title': 'Location',
         'order': 17
       },
       {
-        'path': '\\guide\\frontend\\react\\headforcode\\components\\vimeo',
+        'path': '\\guide\\frontend\\react\\components\\vimeo',
         'title': 'Vimeo Test Harness',
+        'order': 17
+      }
+    ]
+  },
+  '\\guide\\frontend\\react\\how': {
+    'index': [
+      {
+        'path': '\\guide\\frontend\\react\\how\\index',
+        'title': 'How does the basic app work?',
+        'order': 17
+      }
+    ],
+    'children': [
+      {
+        'path': '\\guide\\frontend\\react\\how\\public',
+        'title': 'Look inside the Public folder',
+        'order': 17
+      },
+      {
+        'path': '\\guide\\frontend\\react\\how\\src',
+        'title': 'Look inside the src folder',
+        'order': 17
+      }
+    ]
+  },
+  '\\guide\\frontend\\react\\tools': {
+    'index': [],
+    'children': [
+      {
+        'path': '\\guide\\frontend\\react\\tools\\react-doks',
+        'title': 'React-Doks',
         'order': 17
       }
     ]
@@ -954,23 +999,8 @@ module.exports = {
         'order': 17
       },
       {
-        'path': '\\posts\\learning-apollo-graphql',
-        'title': 'Learning Apollo Graphql',
-        'order': 17
-      },
-      {
         'path': '\\posts\\phenomic',
         'title': 'Phenomic rocks!',
-        'order': 17
-      },
-      {
-        'path': '\\posts\\styled-components',
-        'title': 'Styled Components',
-        'order': 17
-      },
-      {
-        'path': '\\posts\\tachyons',
-        'title': 'Tachyons',
         'order': 17
       },
       {
@@ -1081,10 +1111,25 @@ module.exports = {
     'index': [],
     'children': [
       {
+        'path': '\\workshop\\walkapp',
+        'title': 'walkapp',
+        'order': 0
+      },
+      {
         'path': '\\workshop\\getstartedwithreact',
         'title': 'Get started with React',
         'order': 17
       }
     ]
+  },
+  '\\workshop\\walkapp': {
+    'index': [
+      {
+        'path': '\\workshop\\walkapp\\index',
+        'title': 'Building the Walks App, Part 1',
+        'order': 17
+      }
+    ],
+    'children': []
   }
 }

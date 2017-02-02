@@ -1,6 +1,6 @@
 ---
 title: React-Doks
-layout: Docs
+layout: Doc
 ---
 
 https://github.com/Polyconseil/react-doks

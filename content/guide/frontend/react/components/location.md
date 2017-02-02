@@ -1,6 +1,6 @@
 ---
 title: Location
-layout: Location
+layout: Doc
 where: "60 East Street, Epsom, Surrey"
 credit: https://www.npmjs.com/package/react-google-map
 ---

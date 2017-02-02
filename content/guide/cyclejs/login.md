@@ -7,7 +7,7 @@ tab: js,result
 theme: 0
 height: 500
 width: 100%
-layout: CodePage
+layout: Doc
 ---
 
 Pens....

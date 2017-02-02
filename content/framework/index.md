@@ -1,4 +1,4 @@
 ---
 title: HeadForCode
-layout: Framework
+layout: Doc
 ---

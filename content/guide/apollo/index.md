@@ -1,6 +1,6 @@
 ---
 title: Apollo
-layout: default
+layout: Default
 ---
 
 http://www.apollostack.com/
