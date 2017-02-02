@@ -8,8 +8,7 @@ Notes for our forthcoming BNI meeting:
 It has been suggested by our mate Ken that we could do 3 pitches, if we do, we could do it like this
 
 * Pitch 1 - Farnborough Guide looking for premium profile customers with video introductions
-* Pitch 2 - Farnborough Guide looking to establish new key contacts in the local area, we'd like to tap into the contact knowledge in this room today
-* Pitch 3 - HeadForCode the underlying company builds apps (which is what FG is fundamentally) for small to medium sized businesses. We offer free consultations and any project initiated via this meeting today will benefit from a 10% discount on price.
+* Pitch 2 - HeadForCode the underlying company builds apps (which is what FG is fundamentally) for small to medium sized businesses. We offer free consultations and any project initiated via this meeting today will benefit from a 10% discount on price.
 
 ## Pitch 1
 
@@ -25,6 +24,8 @@ We think this is a great promotional tool to the people in the area. It would no
 
 ## Pitch 2
 
-## Pitch 3
+Hello everyone, my name is {} and I would like to introduce you to our business HeadForCode. Farnborough Guide is one of the projects that we are currently working on and I would like to thank Dan here for all of his hard work so far helping us get the project going. We are looking for other projects to take on from May onwards as one of our biggest contracts comes to a potential close. So we are here today to make an introduction to you all, to tell us a little bit about what we do.
 
-Here I would like to reference our [pricing page](/pricing)
+We are techies, geeks if you must, who are very good at getting to know what a business is looking to solve through web and mobile app solutions. HeadForCode invests a lot of time in researching what tools work best together. We familiarise ourselves with online services and technologies that when combined provide cutting edge solutions. Using all of the knowledge we have under our belt we are able to consult and mentor customers. This all culminates in developing applications that suit their needs and solve their problem(s).
+
+We offer a free 1 hour consultation to everyone and from this we can get an idea of what it is you are aiming to achieve. Our offer to you today and indeed to anyone you may refer this offer to, is 10% off our usual daily fees. I look forward to chatting with you.
