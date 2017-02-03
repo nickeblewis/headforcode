@@ -4,8 +4,6 @@
 import React, { Component, PropTypes } from 'react'
 import { BodyContainer } from 'phenomic'
 import { Link } from 'react-router'
-import Svg from 'react-svg-inline'
-import gitHubSvg from '../../assets/icons/github.svg'
 import debounce from 'lodash/debounce'
 import generatedMenu from './generated-menu'
 import Shell from '../Default'
@@ -138,11 +136,8 @@ class Doc extends Component {
   render () {
     const {
       __url,
-      head,
       body,
     } = this.props
-
-    const githubURL = 'https://github.com/nickeblewis/headforcode/edit/master' + head.gitLink
 
     const markdownContent = (
       <BodyContainer>
@@ -178,12 +173,6 @@ class Doc extends Component {
             {this.renderSidebar()}
 
             <div className={styles.content + ' docs-content'}>
-              <span className={styles.editLink}>
-                <Svg svg={gitHubSvg} cleanup />
-                <a target='_blank' href={githubURL}>
-                  Edit on github
-                </a>
-              </span>
 
               {markdownContent}
 
