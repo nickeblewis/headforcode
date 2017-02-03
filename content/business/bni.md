@@ -29,3 +29,9 @@ Hello everyone, my name is {} and I would like to introduce you to our business 
 We are techies, geeks if you must, who are very good at getting to know what a business is looking to solve through web and mobile app solutions. HeadForCode invests a lot of time in researching what tools work best together. We familiarise ourselves with online services and technologies that when combined provide cutting edge solutions. Using all of the knowledge we have under our belt we are able to consult and mentor customers. This all culminates in developing applications that suit their needs and solve their problem(s).
 
 We offer a free 1 hour consultation to everyone and from this we can get an idea of what it is you are aiming to achieve. Our offer to you today and indeed to anyone you may refer this offer to, is 10% off our usual daily fees. I look forward to chatting with you.
+
+## Pitch 2.1
+
+Starts with the sme greeting but then goes on to...
+
+We are here today to promote the launch of the new HeadForCode website. I have distributed some cards around the table that will refer you to the website address and my contact details. We are the business behind Farnborough Guide but as a whole we are a consultancy who specialises in building apps.
