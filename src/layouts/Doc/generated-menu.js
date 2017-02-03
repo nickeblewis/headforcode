@@ -9,18 +9,13 @@ module.exports = {
     ],
     'children': [
       {
-        'path': '\\guide',
-        'title': 'guide',
+        'path': '\\assets',
+        'title': 'assets',
         'order': 0
       },
       {
         'path': '\\workshop',
         'title': 'workshop',
-        'order': 0
-      },
-      {
-        'path': '\\blog',
-        'title': 'blog',
         'order': 0
       },
       {
@@ -39,11 +34,6 @@ module.exports = {
         'order': 0
       },
       {
-        'path': '\\courses',
-        'title': 'courses',
-        'order': 0
-      },
-      {
         'path': '\\danslab',
         'title': 'danslab',
         'order': 0
@@ -54,13 +44,18 @@ module.exports = {
         'order': 0
       },
       {
-        'path': '\\assets',
-        'title': 'assets',
+        'path': '\\guide',
+        'title': 'guide',
         'order': 0
       },
       {
-        'path': '\\teach',
-        'title': 'teach',
+        'path': '\\blog',
+        'title': 'blog',
+        'order': 0
+      },
+      {
+        'path': '\\mentoring',
+        'title': 'mentoring',
         'order': 0
       },
       {
@@ -89,16 +84,21 @@ module.exports = {
         'order': 0
       },
       {
+        'path': '\\teach',
+        'title': 'teach',
+        'order': 0
+      },
+      {
+        'path': '\\404',
+        'order': 17
+      },
+      {
         'path': '\\README',
         'title': 'title',
         'order': 17
       },
       {
         'path': '\\loading',
-        'order': 17
-      },
-      {
-        'path': '\\404',
         'order': 17
       }
     ]
@@ -178,29 +178,6 @@ module.exports = {
       }
     ]
   },
-  '\\courses': {
-    'index': [],
-    'children': [
-      {
-        'path': '\\courses\\javascript',
-        'title': 'javascript',
-        'order': 0
-      },
-      {
-        'path': '\\courses\\web',
-        'title': 'web',
-        'order': 0
-      }
-    ]
-  },
-  '\\courses\\javascript': {
-    'index': [],
-    'children': []
-  },
-  '\\courses\\web': {
-    'index': [],
-    'children': []
-  },
   '\\danslab': {
     'index': [
       {
@@ -219,6 +196,16 @@ module.exports = {
         'order': 17
       }
     ],
+    'children': [
+      {
+        'path': '\\framework\\docs',
+        'title': 'docs',
+        'order': 0
+      }
+    ]
+  },
+  '\\framework\\docs': {
+    'index': [],
     'children': []
   },
   '\\guide': {
@@ -879,6 +866,75 @@ module.exports = {
         'order': 17
       }
     ],
+    'children': []
+  },
+  '\\mentoring': {
+    'index': [],
+    'children': [
+      {
+        'path': '\\mentoring\\redux',
+        'title': 'redux',
+        'order': 0
+      }
+    ]
+  },
+  '\\mentoring\\redux': {
+    'index': [],
+    'children': [
+      {
+        'path': '\\mentoring\\redux\\actions',
+        'title': 'actions',
+        'order': 0
+      },
+      {
+        'path': '\\mentoring\\redux\\constants',
+        'title': 'constants',
+        'order': 0
+      },
+      {
+        'path': '\\mentoring\\redux\\forms',
+        'title': 'forms',
+        'order': 0
+      },
+      {
+        'path': '\\mentoring\\redux\\reducers',
+        'title': 'reducers',
+        'order': 0
+      },
+      {
+        'path': '\\mentoring\\redux\\sagas',
+        'title': 'sagas',
+        'order': 0
+      },
+      {
+        'path': '\\mentoring\\redux\\selectors',
+        'title': 'selectors',
+        'order': 0
+      }
+    ]
+  },
+  '\\mentoring\\redux\\actions': {
+    'index': [],
+    'children': []
+  },
+  '\\mentoring\\redux\\constants': {
+    'index': [],
+    'children': []
+  },
+  '\\mentoring\\redux\\forms': {
+    'index': [],
+    'children': []
+  },
+  '\\mentoring\\redux\\reducers': {
+    'index': [],
+    'children': []
+  },
+  '\\mentoring\\redux\\sagas': {
+    'index': [],
+    'children': []
+  },
+  '\\mentoring\\redux\\selectors': {
+    'index': [],
     'children': []
   },
   '\\nvq': {
