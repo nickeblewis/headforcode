@@ -3,7 +3,28 @@ title: Week 6
 layout: Doc
 ---
 
-## Monday 7th February
+# This week's timeline and lessons
+
+## Friday 10th February
+
+* Continuation of work on the "Walks App" to help Dan really get to grips with this application... mainly the database for now, as Vinay will only be interested in that this time round
+
+## Thursday 9th February
+
+* Early start, pick up Dan at 6:30am for the BNI meeting at the Holiday Inn
+* Nick and Tina to make [two pitches to the attendees](/business/bni) which will be an interesting experience for all!
+* Nick and Dan to run through the demo Dan is to make to Vinay next week
+
+## Wednesday 8th February
+
+* Nick attending course, so not available
+
+## Tuesday 7th February
+
+* We talked about [using git](/guide/git/quickguide)
+* I put together the video [https://vimeo.com/202983064](https://vimeo.com/202983064) which is our longest screencast to date!
+
+## Monday 6th February
 
 * Vinay's email, please respond to him and make sure the things he was expecting are in hand first and foremost. I know you were working on a few things for your College work at the end of last week, so please let me know. If you are stuck with anything let me know.
 * I have updated the Walk App, see the section below for an update on it
