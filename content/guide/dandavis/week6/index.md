@@ -23,6 +23,7 @@ layout: Doc
 
 * We talked about [using git](/guide/git/quickguide)
 * I put together the video [https://vimeo.com/202983064](https://vimeo.com/202983064) which is our longest screencast to date!
+* Learn more about GraphCool and the [Farnborough Guide project](/projects/farnborough)
 
 ## Monday 6th February
 
