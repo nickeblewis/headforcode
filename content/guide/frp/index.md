@@ -1,6 +1,6 @@
 ---
 title: FRP - Functional Reactive Programming
-layout: Default
+layout: Doc
 ---
 
 ## What is FRP?
