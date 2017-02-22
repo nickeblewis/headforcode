@@ -6,16 +6,16 @@ import {Link} from 'react-router'
 import Advert from '../../fragments/Advert'
 // import Newsletter from '../../fragments/Newsletter/Newsletter'
 import defaultThumbnail from '../../assets/images/platform_4.gif'
-import styles from './Blog.css'
+import styles from './Latest.css'
 
 const numberOfLatestPosts = 10
 // const isClient = typeof window !== 'undefined'
 
-export default class BlogPage extends Component {
+export default class LatestPage extends Component {
   static contextTypes = {
     collection: PropTypes.array.isRequired,
   }
-  renderBlogPreview (page, i) {
+  renderLatestPreview (page, i) {
     let author = 'Nick Lewis'
     let avatarURL = 'https://avatars3.githubusercontent.com/u/440732?v=3&s=60'
     let thumbnail = defaultThumbnail
@@ -27,7 +27,7 @@ export default class BlogPage extends Component {
       return null
     }
     if (page.thumbnail) {
-      thumbnail = page.thumbnail
+      thumbnail = page.thumbnails
     }
     const avatarImg = (
       <img role='presentation' className={styles.avatarImg} src={avatarURL} />
@@ -67,7 +67,7 @@ export default class BlogPage extends Component {
         <div className={styles.wrapper}>
           <div className={styles.postList}>
           {latestPosts.map((page, i) => (
-            this.renderBlogPreview(page, i)
+            this.renderLatestPreview(page, i)
           ))}
           </div>
           <div className={styles.sidebar}>
