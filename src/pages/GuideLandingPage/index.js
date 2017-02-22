@@ -23,26 +23,20 @@ export default class GuideLandingPage extends React.Component {
         </h2>
         <div className={styles.componentBox}>
           <div className={styles.component}>
-            <Link to='/guide/frontend'>
-              <h3>Front-end</h3>
+            <Link to='/guide/react'>
+              <h3>React</h3>
             </Link>
             <p>Learn more about the key front-end skills such as HTML, CSS and React plus others
             </p>
           </div>
           <div className={styles.component}>
-            <Link to='/guide/data'>
-              <h3>Data &amp; APIs</h3>
+            <Link to='/guide/graphql'>
+              <h3>GraphQL</h3>
             </Link>
             <p>We focus on how you can use a variety of microservices and their APIs to build the applications of today and the future
             </p>
           </div>
-          <div className={styles.component}>
-            <Link to='/guide/mobile'>
-              <h3>Mobile</h3>
-            </Link>
-            <p>The users of the world are becoming more and more dependent on mobile devices. We take a look at how this can be achieved.
-            </p>
-          </div>
+          {}
         </div>
       </Page>
     )
