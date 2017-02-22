@@ -1,5 +1,5 @@
 ---
-title: 'HeadForCode Blog'
+title: 'HeadForCode - Latest Articles'
 description: 'Articles, resources, and posts etc'
 layout: Blog
 gitLink: \index.md

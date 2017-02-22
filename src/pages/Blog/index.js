@@ -8,7 +8,7 @@ import Advert from '../../fragments/Advert'
 import defaultThumbnail from '../../assets/images/platform_4.gif'
 import styles from './Blog.css'
 
-const numberOfLatestPosts = 5
+const numberOfLatestPosts = 10
 // const isClient = typeof window !== 'undefined'
 
 export default class BlogPage extends Component {
