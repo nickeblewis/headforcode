@@ -56,14 +56,14 @@ export default class BlogPage extends Component {
   }
   render () {
     const latestPosts = enhanceCollection(this.context.collection, {
-      filter: { layout: 'Post' },
+      filter: { layout: 'Doc' },
       sort: 'date',
       reverse: true,
     })
     .slice(0, numberOfLatestPosts)
     return (
       <Page {...this.props}>
-        <h2 className={styles.pageTitle}>HeadForCode Blog</h2>
+        <h2 className={styles.pageTitle}>Our latest musings on all things code...</h2>
         <div className={styles.wrapper}>
           <div className={styles.postList}>
           {latestPosts.map((page, i) => (
