@@ -3,7 +3,7 @@
  * Layout: Homepage
  */
 export Jobs from './Jobs'
-export Blog from './Blog'
+export Latest from './Blog'
 export PageError from './404'
 export Homepage from './Homepage'
 export PageLoading from './PageLoading'
