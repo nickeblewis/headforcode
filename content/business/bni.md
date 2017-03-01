@@ -26,3 +26,11 @@ There are three of us, we are small and proud of being so. Two Directors, one of
 ## Why come to us?
 
 We have a "can do" attitude but at the same time would also be honest if we feel a project is beyong our scope.
+
+## What are we looking for right now?
+
+So here is the call to action for you as it were. We are busy right now which is great but in the Spring time this year we are going to have some capacity as they say in the business. We will be able to take new work on around then and we are prompting people to get in touch now with their needs.
+
+### What would be our ideal project
+
+Well we are working on one or two off our own backs and they are coming along well but we would love to build some business focussed web apps for people. Totally bespoke products that we can continue to support for you for many years. We are looking at not just developing new applications but also at building new B2B relationships around the area.
