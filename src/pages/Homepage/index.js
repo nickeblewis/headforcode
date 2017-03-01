@@ -59,12 +59,25 @@ export default class Homepage extends Component {
                     <div className={styles.cta}>
                       <Button
                         kind='black'
+                        href='/business/bni'
+                      >
+                        <span className={styles.ctaInner}>
+                          <Svg svg={docsSvg} cleanup />
+                          <span className={styles.ctaText}>
+                            Welcoming the BNI
+                          </span>
+                        </span>
+                      </Button>
+                    </div>
+                    <div className={styles.cta}>
+                      <Button
+                        kind='black'
                         href='/guide/'
                       >
                         <span className={styles.ctaInner}>
                           <Svg svg={docsSvg} cleanup />
                           <span className={styles.ctaText}>
-                            Your Guide to things!
+                            Learn how to Code
                           </span>
                         </span>
                       </Button>
