@@ -19,6 +19,20 @@ JavaScript functions are __defined__ with the __function__ keyword.
 You can use a function __declaration__ or a function __expression__.
 
 All of these things will become clearer as we discuss examples... I shall treat this article as one that will 
-evolve over time, so please feel free to discuss us
+evolve over time, so please feel free to discuss usin the comments feature below! I am keen for it to be used so go for it! Go on! ;-)
+
 ## Function Declarations
+
+You can __declare__ a function using the following syntax:
+
+``` JavaScript
+function addTogether(a, b) {
+  return a + b;
+}
+```
+
+In the above example you would be expecting two values to be passed in
+
+## Function Expressions
+
 
