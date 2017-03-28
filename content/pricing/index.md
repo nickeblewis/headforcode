@@ -65,6 +65,17 @@ All of the above, plus...
 * Promotion on the FG home page
 * and more to be announced soon
  
+# SEO
+
+| Package | Price per month (incl. VAT) |
+| --- | --- |
+| Standard |  £200 |
+| Local |  £300 |
+
+# CMS
+
+TODO
+
 # Mobile Apps
 
 TODO
