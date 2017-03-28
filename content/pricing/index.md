@@ -67,6 +67,18 @@ All of the above, plus...
  
 # SEO
 
+How does it work? Essentially we act as a partner who helps you achieve better results for your website via the following activities:
+
+* Key phrase research and selection
+* Web server and onsite analysis and reporting
+* Localised search optimisation
+
+We charge customers a monthly fee for the work that we do and we provide frequent reports to show you how your site traffic is growing and to asess the level of engagement generated
+## Standard
+
+
+## Local
+
 | Package | Price per month (incl. VAT) |
 | --- | --- |
 | Standard |  £200 |
