@@ -1,37 +1,36 @@
 ---
-title: BNI Meeting 9th February
-layout: Doc
+title: BNI Farnborough Jets
+layout: Default
 ---
 
-Notes for our forthcoming BNI meeting:
+# HeadForCode
 
-It has been suggested by our mate Ken that we could do 3 pitches, if we do, we could do it like this
+We would like to offer our services to the members of the [Farnborough Jets BNI Chapter](http://www.bnihampshire.com/farnborough-jets/) and thank you for taking the time to visit this website. We develop our expertise in building applications for businesses just like yours. We thought it would be a good idea to highlight just some of the things we do and can offer you. We hope you find something here of interest and look forward to chatting with you in the future.
 
-* Pitch 1 - Farnborough Guide looking for premium profile customers with video introductions
-* Pitch 2 - HeadForCode the underlying company builds apps (which is what FG is fundamentally) for small to medium sized businesses. We offer free consultations and any project initiated via this meeting today will benefit from a 10% discount on price.
+## Where are we?
 
-## Pitch 1
+We are based in Farnborough at the former Town Hall, Ferneberga House, right next door to the Alexandra Road Post Office depot. You are welcome to come and see us but it's often best to pop us an email first to make sure we are about and aslo so that we can get biscuits. What kind of meeting would it be without those!
 
-Good morning everyone, my name is {} and I would like to talk to you today about our new web project called Farnborough Guide. 
+## What we do?
 
-So what is Farnborough Guide? In short it is a site that is divided up into separate areas. There will be Events, Walks, Search and there will be more sections to come. FG aims to be as dynamic and as social as it possibly can be. We want it to feel like your website, a place you can depend on to find reliable local information. 
+We could just say that we build web and mobile apps, whilst that is a little bit vague in many ways, it is what we do! 
 
-We want you to tell us about your businesses for the Search part of the site and you can do so by signing up for a "Premium Profile" and this is where our pitch for today comes into play. Your profile need not be just a static web page but we are going to incorporate video clips! So here is the deal, we come to you, shoot your video in which you have just 45 seconds to give your customer audience a good idea of who you are. Why should they buy their meat from you? Why are you the best choice for fitting their conservatory? Why your band is a great hire for weddings and pub nights?
+* We take on a lot of contract work which means we often work with big companies for a few months at a time, sometimes on site and from our own premises in Farnborough. Right now we are working with Premium Credit Ltd on a project that enables insurance brokers to process their customers' premiums
+* We have in the past worked with The AA, Transport for London, Zurich Insurance, Save the Children and others
+* We are currently developing a product called Farnborough Guide which is going to be a platform for helping businesses promote themselves to local people. It will be more in depth about the topics it covers compared to other sites
 
-We then edit the video, caption it and add titles complete with your business card details. The video then is published to the Farnborough Guide YouTube channel. Above all else you will get a page that bears your name and new videos are featured on the homepage of FG.
+## Who are we?
 
-We think this is a great promotional tool to the people in the area. It would normally cost you £750 per year (including VAT) but to the people here today or anyone you refer this to, we are happy to offer it to you for £550!
+There are three of us, we are small and proud of being so. Two Directors, one of whom is myself, Nick Lewis and I play a kind of CEO/CTO role. Tina Lewis (my Wife) who takes care of the HR side of things and is also currently engaged in a long term contract. Dan Davis who is our newest member of the team. He helps us build web apps and provides a very dry sense of humour to the mix.... In fact we are all pretty daft when it comes down to it!
 
-## Pitch 2
+## Why come to us?
 
-Hello everyone, my name is {} and I would like to introduce you to our business HeadForCode. Farnborough Guide is one of the projects that we are currently working on and I would like to thank Dan here for all of his hard work so far helping us get the project going. We are looking for other projects to take on from May onwards as one of our biggest contracts comes to a potential close. So we are here today to make an introduction to you all, to tell us a little bit about what we do.
+We have a "can do" attitude but at the same time would also be honest if we feel a project is beyong our scope.
 
-We are techies, geeks if you must, who are very good at getting to know what a business is looking to solve through web and mobile app solutions. HeadForCode invests a lot of time in researching what tools work best together. We familiarise ourselves with online services and technologies that when combined provide cutting edge solutions. Using all of the knowledge we have under our belt we are able to consult and mentor customers. This all culminates in developing applications that suit their needs and solve their problem(s).
+## What are we looking for right now?
 
-We offer a free 1 hour consultation to everyone and from this we can get an idea of what it is you are aiming to achieve. Our offer to you today and indeed to anyone you may refer this offer to, is 10% off our usual daily fees. I look forward to chatting with you.
+So here is the call to action for you as it were. We are busy right now which is great but in the Spring time this year we are going to have some capacity as they say in the business. We will be able to take new work on around then and we are prompting people to get in touch now with their needs.
 
-## Pitch 2.1
+### What would be our ideal project
 
-Starts with the sme greeting but then goes on to...
-
-We are here today to promote the launch of the new HeadForCode website. I have distributed some cards around the table that will refer you to the website address and my contact details. We are the business behind Farnborough Guide but as a whole we are a consultancy who specialises in building apps.
+Well we are working on one or two off our own backs and they are coming along well but we would love to build some business focussed web apps for people. Totally bespoke products that we can continue to support for you for many years. We are looking at not just developing new applications but also at building new B2B relationships around the area.
