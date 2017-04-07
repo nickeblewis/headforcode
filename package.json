@@ -5,6 +5,8 @@
   "homepage": "https://headforcode.com",
   "repository": "https://github.com/nickeblewis/headforcode.git",
   "phenomic": {
+    "source": "content",
+    "assets": "content/assets",
     "CNAME": false,
     "cache": false,
     "offline": false
