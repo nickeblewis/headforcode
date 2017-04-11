@@ -17,6 +17,7 @@ We are developing both a mobile app and a website with a GraphQL backend powered
 
 ### Mapugo
 
+This project has begun and is based on the FG codebase
 
 ### Nfolio
 
