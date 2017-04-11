@@ -9,9 +9,14 @@ title: Our Projects
 
 ### Farnborough Guide
 
-Currently being developed in Umbraco but are considering moving it to a Phenomic based project.
+We are developing both a mobile app and a website with a GraphQL backend powered by GraphCool, so we will be building some lambda functions.
+
+* Cloudinary
+* GraphCool
+* Auth0
 
 ### Mapugo
+
 
 ### Nfolio
 
